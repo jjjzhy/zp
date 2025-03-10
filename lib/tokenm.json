@@ -9,14 +9,14 @@
 "is_vip":true,
 "vip_thread_limit":32,
 "vip_thread_limit_night":"19-23=10",
-"vod_flags":"4kz|auto",
+"vod_flags":"auto|4kz",
 
 "quark_thread_limit":32,
 "quark_thread_limit_night":"19-23=10",
 "quark_is_guest":false,
 "quark_vip_thread_limit":32,
 "quark_vip_thread_limit_night":"19-23=10",
-"quark_flags":"4kz|auto",
+"quark_flags":"auto|4kz",
 	
 "uc_thread_limit":10,
 "uc_is_vip":false,
@@ -57,7 +57,7 @@
 "pikpak_proxy_onlyapi":false,
 "pikpak_danmu":true,
 
-"wgcf_key":"",
+"wgcf_key":"=",
 "wgcf_key2":"",
 "wgcf_ipport":"",
 "wgcf_xray_url":"./xray.gz",
@@ -103,4 +103,5 @@
 "tgsearch_media_url":"http://tg.fish2018.us.kg/",
 	
 "allinone_url":"./allinone.tar.xz"
+
 }
