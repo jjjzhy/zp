@@ -71,31 +71,6 @@
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-{"key":"饭佬_原创","name":"原创丨1080P","type":3,"api":"csp_YCyzGuard","searchable":1,"quickSearch":1,"changeable":1,"jar":"./jar/fan.txt;md5;d7422c79ea5b4479c056b168cdaf95b0"},
-{"key":"饭佬_苹果","name":"苹果丨1080P","type":3,"api":"csp_LiteAppleGuard","searchable":1,"quickSearch":1,"changeable":1,"jar":"./jar/fan.txt;md5;d7422c79ea5b4479c056b168cdaf95b0"},
-{"key":"饭佬_厂长","name":"厂长丨1080P","type":3,"api":"csp_NewCzGuard","searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.czzyvideo.com/","jar":"./jar/fan.txt;md5;d7422c79ea5b4479c056b168cdaf95b0"},
-{"key":"饭佬_糯米","name":"糯米丨1080P","type":3,"api":"csp_NmyswvGuard","searchable":1,"quickSearch":1,"changeable":1,"jar":"./jar/fan.txt;md5;d7422c79ea5b4479c056b168cdaf95b0"},
-{"key":"饭佬_白白","name":"白白丨1080P","type":3,"api":"csp_SbaibaiGuard","searchable":1,"quickSearch":1,"changeable":1,"jar":"./jar/fan.txt;md5;d7422c79ea5b4479c056b168cdaf95b0"},
-{"key":"饭佬_神车","name":"神车丨1080P","type":3,"api":"csp_AppSxGuard","searchable":1,"quickSearch":1,"changeable":1,"ext":"FbjPcVZY48PN/RIZ5QqOrsp1OZsTS9wQSSpQpK6jnh0fUMKIu22IxR6Z7/exDifuKH+Agjg9","jar":"./jar/fan.txt;md5;d7422c79ea5b4479c056b168cdaf95b0"},
-{"key":"饭佬_在线","name":"在线丨1080P","type":3,"api":"csp_ZxzjGuard","searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.zxzjhd.com/","jar":"./jar/fan.txt;md5;d7422c79ea5b4479c056b168cdaf95b0"},
-{"key":"饭佬_比特","name":"比特丨1080P","type":3,"api":"csp_BttwooGuard","searchable":1,"quickSearch":1,"changeable":1,"jar":"./jar/fan.txt;md5;d7422c79ea5b4479c056b168cdaf95b0"},
-{"key":"饭佬_文采","name":"文才丨1080P","type":3,"api":"csp_JpysGuard","searchable":1,"quickSearch":1,"changeable":1,"jar":"./jar/fan.txt;md5;d7422c79ea5b4479c056b168cdaf95b0"},
-{"key":"饭佬_低端","name":"低端丨1080P","type":3,"api":"csp_DdrkGuard","searchable":1,"quickSearch":1,"changeable":1,"jar":"./jar/fan.txt;md5;d7422c79ea5b4479c056b168cdaf95b0"},
-{"key":"饭佬_木星","name":"木星丨1080P","type":3,"api":"csp_AppSxGuard","searchable":1,"quickSearch":1,"changeable":1,"ext":"FbjPcVZY48PN/RIZ5QqOrsplZNERApoHSmxZ77D7wAtcAsqZuXTQzUHW+quzHG+7cXaG3SBwzihuA2NlCJpscUJASIGSmRiXKW5NhipHle83SfO6IA==","jar":"./jar/fan.txt;md5;d7422c79ea5b4479c056b168cdaf95b0"},
-{"key":"饭佬_兄弟","name":"兄弟丨1080P","type":3,"api":"csp_AppSxGuard","searchable":1,"quickSearch":1,"filterable":1,"ext":"FbjDcUxPqpfNr0QF4QvE6sExbdBHCJkQSzBQt+vmhxkUAtbepC6RjQjA6r70U2OrZ3mJyX4hh2AsXS8mTp9pKB8=","jar":"./jar/fan.txt;md5;d7422c79ea5b4479c056b168cdaf95b0"},
-{"key":"饭佬_热播","name":"热播丨1080P","type":3,"api":"csp_AppTTGuard","searchable":1,"quickSearch":1,"changeable":1,"ext":"AO7TcBkd8I/B5wQc4Qma+pU=","jar":"./jar/fan.txt;md5;d7422c79ea5b4479c056b168cdaf95b0"},
-{"key":"饭佬_萌米","name":"萌米丨1080P","type":3,"api":"csp_AppTTGuard","searchable":1,"quickSearch":1,"changeable":1,"ext":"AO7TcBkd8I2bux0Y8Qze6tVlMg==","jar":"./jar/fan.txt;md5;d7422c79ea5b4479c056b168cdaf95b0"},
-{"key":"饭佬_欢视","name":"欢视丨1080P","type":3,"api":"csp_AppTTGuard","searchable":1,"quickSearch":1,"changeable":1,"ext":"AO7TcBkd8I/B+Qsa7gqa+pU=","jar":"./jar/fan.txt;md5;d7422c79ea5b4479c056b168cdaf95b0"},
-{"key":"饭佬_可可","name":"可可丨1080P","type":3,"api":"csp_KekysGuard","searchable":1,"quickSearch":1,"changeable":1,"jar":"./jar/fan.txt;md5;d7422c79ea5b4479c056b168cdaf95b0"},
-{"key":"饭佬_奥特","name":"奥特丨1080P","type":3,"api":"csp_AueteGuard","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://auete.com/","jar":"./jar/fan.txt;md5;d7422c79ea5b4479c056b168cdaf95b0"},
-{"key":"饭佬_贱贱","name":"荐片丨4K磁力","type":3,"api":"csp_JPJGuard","searchable":1,"quickSearch":1,"changeable":0,"jar":"./jar/fan.txt;md5;d7422c79ea5b4479c056b168cdaf95b0"},
-{"key":"饭佬_新6V","name":"新6V丨4K磁力","type":3,"api":"csp_SixVGuard","searchable":1,"quickSearch":1,"changeable":0,"ext":"https://www.xb6v.com/","jar":"./jar/fan.txt;md5;d7422c79ea5b4479c056b168cdaf95b0"},
-{"key":"饭佬_巴士","name":"巴士丨1080P","type":3,"api":"csp_Dm84Guard","searchable":1,"quickSearch":1,"changeable":1,"jar":"./jar/fan.txt;md5;d7422c79ea5b4479c056b168cdaf95b0"},
-{"key":"饭佬_异界","name":"异界丨1080P","type":3,"api":"csp_YsjGuard","searchable":1,"quickSearch":1,"changeable":1,"jar":"./jar/fan.txt;md5;d7422c79ea5b4479c056b168cdaf95b0"},
-{"key":"饭佬_日本","name":"日本丨1080P","type":3,"api":"csp_Anime1Guard","searchable":1,"quickSearch":1,"changeable":1,"jar":"./jar/fan.txt;md5;d7422c79ea5b4479c056b168cdaf95b0"},
-
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 {"key":"潇洒_韩圈","name":"韩圈丨1080P","type":3,"api":"csp_HanXiaoQuan","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/spider.jar;md5;912aca622048f595aca9ec9abdfaabd2"},
 {"key":"潇洒_影视","name":"影视丨1080P","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cs.hgyx.vip/api2/api.php/app/","jar":"./jar/spider.jar;md5;912aca622048f595aca9ec9abdfaabd2"},
 {"key":"潇洒_猎手","name":"猎手丨1080P","type":3,"api":"./XBPQ/猎手影视.py","searchable":1,"changeable":1,"quickSearch":1,"filterable":1,"jar":"./jar/spider.jar;md5;912aca622048f595aca9ec9abdfaabd2"},
