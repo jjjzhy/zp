@@ -44,12 +44,12 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 {"key":"屁股_玩偶","name":"玩偶丨4K网盘","type":3,"api":"csp_Wogg","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./lib/tokenm.json$$$https://wogg.banye.tech:7086/$$$1$$$noproxy$$$./lib/wogg.json$$$WOGG"},
-{"key":"屁股_木偶","name":"木偶丨4K网盘","type":3,"api":"csp_Wobg","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./lib/tokenm.json$$$https://mogg.banye.tech:7086/$$$1$$$noproxy$$$./lib/wogg.json$$$MOGG"},
-{"key":"屁股_闪电","name":"闪电丨4K网盘","type":3,"api":"csp_Wobg","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./lib/tokenm.json$$$https://shandian.banye.tech:7086/$$$noproxy$$$1$$$./lib/wogg.json$$$SHANDIAN"},
-
 {"key":"屁股_下饭","name":"下饭丨4K网盘","type":3,"api":"csp_Wobg","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./lib/token.json$$$https://xiafan.banye.tech:7086/$$$noproxy$$$1$$$./lib/wogg.json$$$XIAFAN"},
+{"key":"屁股_蜡笔","name":"蜡笔丨4K网盘","type":3,"api":"csp_Wobg","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./lib/tokenm.json$$$https://labi.banye.tech:7086/$$$noproxy$$$1$$$./lib/wogg.json$$$LABI"},
+
 {"key":"屁股_至臻","name":"至臻丨4K网盘","type":3,"api":"csp_Wobg","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./lib/tokenm.json$$$https://zhizhen.banye.tech:7086/$$$noproxy$$$1$$$./lib/wogg.json$$$ZHIZHEN"},
-{"key":"屁股_多多","name":"多多丨4K网盘","type":3,"api":"csp_Wobg","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./lib/tokenm.json$$$https://duoduo.banye.tech:7086/$$$noproxy$$$1$$$./lib/wogg.json$$$DOUDOU"},
+{"key":"屁股_二小","name":"二小丨4K网盘","type":3,"api":"csp_Wobg","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./lib/tokenm.json$$$https://erxiao.banye.tech:7086/$$$noproxy$$$1$$$./lib/wogg.json$$$ERXIAO"},
+{"key":"屁股_闪电","name":"闪电丨4K网盘","type":3,"api":"csp_Wobg","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./lib/tokenm.json$$$https://shandian.banye.tech:7086/$$$noproxy$$$1$$$./lib/wogg.json$$$SHANDIAN"},
 
 {"key":"屁股_瓜子","name":"瓜子丨1080P","type":3,"api":"csp_Guazi","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":""},
 {"key":"屁股_天天","name":"天天丨1080P","type":3,"api":"csp_TTian","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"ext":"http://op.ysdqjs.cn$$$null$$$1"},
