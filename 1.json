@@ -18,7 +18,7 @@
 
 {"key":"潇洒_广场","name":"广场丨舞蹈","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"style":{"type":"rect","ratio":1.597},"ext":{"danmu":false,"cookie":"./lib/bilibili.txt","json":"./bilibili/哔哩合集.json"},"jar":"./jar/spider.jar;md5;ece2a878d66039fb737939e19af787af"},
 {"key":"哔哩_哔哩","name":"哔站丨哔哩","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"filterable":1,"style":{"type":"rect","ratio":1.597},"ext":{"cookie":"./lib/bilibili.txt","json":"./bilibili/哔哩合集.json"},"timeout":10,"jar":"./jar/spider.jar;md5;ece2a878d66039fb737939e19af787af"},
-{"key":"饭佬_直播","name":"游戏丨直播","type":3,"api":"csp_AllliveGuard","searchable":0,"quickSearch":0,"filterable":0,"jar":"./jar/fan.txt;md5;d7422c79ea5b4479c056b168cdaf95b0"},
+{"key":"饭佬_直播","name":"游戏丨直播","type":3,"api":"csp_AllliveGuard","searchable":0,"quickSearch":0,"filterable":0,"jar":"./jar/fan.txt;md5;dda5ab42b722f13761900308a6caff89"},
 
 {"key":"潇洒_学习","name":"哔哩丨学习","type":3,"api":"csp_Bili","searchable":0,"filterable":0,"style":{"type":"rect","ratio":1.597},"ext":{"cookie":"./lib/bilibili.txt","json":"./bilibili/学习园地.json"},"timeout":20,"jar":"./jar/spider.jar;md5;ece2a878d66039fb737939e19af787af"},
 {"key":"潇洒_外语","name":"哔哩丨外语","type":3,"api":"csp_Bili","searchable":0,"filterable":0,"style":{"type":"rect","ratio":1.597},"ext":{"cookie":"./lib/bilibili.txt","json":"./bilibili/学外语.json"},"timeout":20,"jar":"./jar/spider.jar;md5;ece2a878d66039fb737939e19af787af"},
@@ -28,9 +28,9 @@
 {"key":"潇洒_戏曲","name":"哔哩丨戏曲","type":3,"api":"csp_Bili","searchable":0,"filterable":0,"style":{"type":"rect","ratio":1.597},"ext":{"cookie":"./lib/bilibili.txt","json":"./bilibili/哔哩戏曲.json"},"timeout":20,"jar":"./jar/spider.jar;md5;ece2a878d66039fb737939e19af787af"},
 {"key":"潇洒_歌曲","name":"哔哩丨歌曲","type":3,"api":"csp_Bili","searchable":0,"filterable":0,"style":{"type":"rect","ratio":1.597},"ext":{"cookie":"./lib/bilibili.txt","json":"./bilibili/演唱会.json"},"timeout":20,"jar":"./jar/spider.jar;md5;ece2a878d66039fb737939e19af787af"},
 
-{"key":"饭佬_八八","name":"体育丨直播①","type":3,"api":"csp_Sir88Guard","searchable":0,"changeable":0,"style":{"type":"list"},"jar":"./jar/fan.txt;md5;d7422c79ea5b4479c056b168cdaf95b0"},
-{"key":"饭佬_看球","name":"体育丨直播②","type":3,"api":"csp_KanqiuGuard","searchable":0,"changeable":0,"style":{"type":"list"},"jar":"./jar/fan.txt;md5;d7422c79ea5b4479c056b168cdaf95b0"},
-{"key":"饭佬_九二","name":"体育丨直播③","type":3,"api":"csp_kanqiu926Guard","searchable":0,"changeable":0,"style":{"type":"list"},"jar":"./jar/fan.txt;md5;d7422c79ea5b4479c056b168cdaf95b0"},
+{"key":"饭佬_八八","name":"体育丨直播①","type":3,"api":"csp_Sir88Guard","searchable":0,"changeable":0,"style":{"type":"list"},"jar":"./jar/fan.txt;md5;dda5ab42b722f13761900308a6caff89"},
+{"key":"饭佬_看球","name":"体育丨直播②","type":3,"api":"csp_KanqiuGuard","searchable":0,"changeable":0,"style":{"type":"list"},"jar":"./jar/fan.txt;md5;dda5ab42b722f13761900308a6caff89"},
+{"key":"饭佬_九二","name":"体育丨直播③","type":3,"api":"csp_kanqiu926Guard","searchable":0,"changeable":0,"style":{"type":"list"},"jar":"./jar/fan.txt;md5;dda5ab42b722f13761900308a6caff89"},
 
 {"key":"潇洒_短剧","name":"星芽丨短剧①","type":3,"api":"csp_AppXY","searchable":1,"quickSearch":1,"jar":"./jar/spider.jar;md5;ece2a878d66039fb737939e19af787af"},
 {"key":"潇洒_河马","name":"河马丨短剧②","type":3,"api":"csp_AppHMDJ","searchable":1,"quickSearch":1,"filterable":0,"ext":"KhY021WelCEl+6MsvwnzaPussky/EAoc9z7C4keyHaEQ+sKbXhMKd83VjTL7Ls6+m7XDIcGdziOxPv79y/h4QCvmOEJmZ1VD6dopzAVxkFzEFw==","jar":"./jar/spider.jar;md5;ece2a878d66039fb737939e19af787af"},
@@ -93,8 +93,8 @@
 {"key":"潇洒_电影","name":"电影丨1080P","type":3,"api":"csp_MovieApp","searchable":1,"quickSearch":1,"jar":"./jar/spider.jar;md5;ece2a878d66039fb737939e19af787af"},
 {"key":"潇洒_西瓜","name":"西瓜丨1080P","type":3,"api":"csp_AmuXiguaV2","searchable":1,"quickSearch":0,"filterable":0,"changeable":0,"style":{"type":"rect","ratio":1.597},"jar":"./jar/spider.jar;md5;ece2a878d66039fb737939e19af787af"},
 {"key":"潇洒_爱看","name":"爱看丨1080P","type":3,"api":"csp_IkanBot","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/spider.jar;md5;ece2a878d66039fb737939e19af787af"},
-{"key":"农民影视","name":"农民｜影视","type":3,"api":"csp_XBPQ","ext":"./XBPQ/农民影视.json","jar":"./jar/spider.jar;md5;ece2a878d66039fb737939e19af787af"},
-{"key":"秀儿影视","name":"秀儿｜影视","type":3,"api":"csp_XBPQ","ext":"./XBPQ/秀儿影视.json","jar":"./jar/spider.jar;md5;ece2a878d66039fb737939e19af787af"},
+{"key":"农民_影视","name":"农民丨1080P","type":3,"api":"csp_XBPQ","ext":"./XBPQ/农民影视.json","jar":"./jar/spider.jar;md5;ece2a878d66039fb737939e19af787af"},
+{"key":"秀儿_影视","name":"秀儿丨1080P","type":3,"api":"csp_XBPQ","ext":"./XBPQ/秀儿影视.json","jar":"./jar/spider.jar;md5;ece2a878d66039fb737939e19af787af"},
 {"key":"潇洒_低端","name":"低端丨1080P","type":3,"api":"csp_Ddys","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/spider.jar;md5;ece2a878d66039fb737939e19af787af"},
 {"key":"潇洒_快看","name":"快看丨1080P","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/spider.jar;md5;ece2a878d66039fb737939e19af787af"},
 {"key":"潇洒_饭团","name":"饭团丨1080P","type":3,"api":"csp_Fantuan","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/spider.jar;md5;ece2a878d66039fb737939e19af787af"},
@@ -112,13 +112,13 @@
 {"key":"潇洒_思古","name":"思古丨1080P","type":3,"api":"./lib/drpy2.min.js","ext":"./js/思古影视.js"},
 {"key":"潇洒_魔力","name":"魔力丨1080P","type":3,"api":"./lib/drpy2.min.js","ext":"./js/魔力高清.js"},
 {"key":"潇洒_碟调","name":"碟调丨1080P","type":3,"api":"./lib/drpy2.min.js","ext":"./js/碟调影视.js"},
-{"key":"八号影视","name":"八号｜影视","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XBPQ/八号影视.json"},
-{"key":"盒子影视","name":"盒子｜影视","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XBPQ/盒子影视.json"},
-{"key":"九八影视","name":"九八｜影视","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XBPQ/九八影视.json"},
-{"key":"看看影视","name":"看看｜影视","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XBPQ/看看影视.json"},
-{"key":"七新影视","name":"七新｜影视","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XBPQ/七新影视.json"},
-{"key":"骚火影视","name":"骚火｜影视","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XBPQ/骚火影视.json"},
-{"key":"星辰影视","name":"星辰｜影视","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XBPQ/星辰影视.json"},
+{"key":"潇洒_八号","name":"八号丨1080P","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XBPQ/八号影视.json"},
+{"key":"潇洒_盒子","name":"盒子丨1080P","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XBPQ/盒子影视.json"},
+{"key":"潇洒_九八","name":"九八丨1080P","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XBPQ/九八影视.json"},
+{"key":"潇洒_看看","name":"看看丨1080P","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XBPQ/看看影视.json"},
+{"key":"潇洒_七新","name":"七新丨1080P","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XBPQ/七新影视.json"},
+{"key":"潇洒_骚火","name":"骚火丨1080P","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XBPQ/骚火影视.json"},
+{"key":"潇洒_星辰","name":"星辰丨1080P","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XBPQ/星辰影视.json"},
 {"key":"潇洒_百思","name":"百思丨1080P","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XBPQ/百思派.json","jar":"./jar/spider.jar;md5;ece2a878d66039fb737939e19af787af"},
 {"key":"潇洒_电牛","name":"电牛丨1080P","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XBPQ/电影牛.json","jar":"./jar/spider.jar;md5;ece2a878d66039fb737939e19af787af"},
 {"key":"潇洒_素白","name":"素白丨1080P","type":3,"api":"./lib/drpy2.min.js","ext":"./js/素白白.js"},
@@ -146,11 +146,7 @@
 {"key":"潇洒_花子","name":"花子丨1080P","type":3,"api":"./lib/drpy2.min.js","ext":"./js/花子动漫.js"},
 {"key":"潇洒_巴士","name":"巴士丨1080P","type":3,"api":"./lib/drpy2.min.js","ext":"./js/动漫巴士.js"},
 {"key":"潇洒_樱花","name":"潇花丨1080P","type":3,"api":"./lib/drpy2.min.js","ext":"./js/樱花动漫.js"},
-{"key":"潇洒_修罗","name":"修罗丨4K磁力","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XBPQ/修罗影视.json","jar":"./jar/spider.jar;md5;ece2a878d66039fb737939e19af787af"},
-{"key":"潇洒_狐狸","name":"狐狸丨4K磁力","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XBPQ/狐狸影视.json","jar":"./jar/spider.jar;md5;ece2a878d66039fb737939e19af787af"},
-{"key":"潇洒_Mp4","name":"Mp4丨4K磁力","type":3,"api":"csp_Mp4Mov","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/spider.jar;md5;ece2a878d66039fb737939e19af787af"},
-{"key":"潇洒_酷吧","name":"酷吧丨4K磁力","type":3,"api":"csp_KubaCL","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/spider.jar;md5;ece2a878d66039fb737939e19af787af"},
-{"key":"潇洒_美剧","name":"美剧丨4K磁力","type":3,"api":"csp_MeijuTT","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/spider.jar;md5;ece2a878d66039fb737939e19af787af"},
+
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -168,7 +164,7 @@
 {"key":"逗比_嗨视","name":"嗨视丨1080P","type":4,"api":"https://py.doube.eu.org/spider?site=UpFuHn","searchable":1,"quickSearch":1,"filterable":0,"changeable":0},
 {"key":"逗比_欧乐","name":"欧乐丨1080P","type":4,"api":"https://py.doube.eu.org/spider?site=OleVod","searchable":1,"quickSearch":1,"filterable":0,"changeable":0},
 {"key":"逗比_动漫","name":"动漫丨1080P","type":4,"api":"https://py.doube.eu.org/spider?site=Dm84","searchable":1,"quickSearch":1,"filterable":0,"changeable":0},
-{"key":"逗比_八号","name":"八号丨1080P","type":4,"api":"https://py.doube.eu.org/spider?site=BaHaoTV","searchable":1,"quickSearch":1,"filterable":0,"changeable":0},
+{"key":"逗比_八好","name":"八好丨1080P","type":4,"api":"https://py.doube.eu.org/spider?site=BaHaoTV","searchable":1,"quickSearch":1,"filterable":0,"changeable":0},
 
 {"key":"唐三_独播","name":"独播丨1080P","type":4,"api":"https://tang.hz.cz/power/duboku?token=c3799fd7","searchable":1,"quickSearch":1,"filterable":1,"changeable":0},
 {"key":"唐三_欧乐","name":"欧乐丨1080P","type":4,"api":"https://tang.hz.cz/power/olelive?token=c3799fd7","searchable":1,"quickSearch":1,"filterable":1,"changeable":0},
