@@ -53,11 +53,13 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 {"key":"屁股_玩偶","name":"玩偶丨4K网盘","type":3,"api":"csp_Wogg","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./lib/tokenm.json$$$https://wogg.banye.tech:7086/$$$1$$$noproxy$$$./lib/wogg.json$$$WOGG"},
-{"key":"屁股_雷鲸","name":"雷鲸丨4K网盘","type":3,"api":"csp_Panta","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./lib/tokenm.json$$$https://leijing.xyz/$$$noproxy$$$1$$$LEIJING","style":{"type":"list","ratio":1.1}},
-{"key":"屁股_天逸","name":"天逸丨4K网盘","type":3,"api":"csp_TianYiSou","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./lib/tokenm.json$$$null$$$proxy"},
-
 {"key":"屁股_下饭","name":"下饭丨4K网盘","type":3,"api":"csp_Wobg","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./lib/token.json$$$https://xiafan.banye.tech:7086/$$$noproxy$$$1$$$./lib/wogg.json$$$XIAFAN"},
 {"key":"屁股_大玩","name":"大玩丨4K网盘","type":3,"api":"csp_Wobg","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./lib/tokenm.json$$$https://dawo.banye.tech:7086/$$$noproxy$$$1$$$./lib/wogg.json$$$DAWO"},
+
+{"key":"屁股_雷鲸","name":"雷鲸丨4K网盘","type":3,"api":"csp_Panta","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./lib/tokenm.json$$$https://leijing.xyz/$$$noproxy$$$1$$$LEIJING","style":{"type":"list","ratio":1.1}},
+{"key":"屁股_海绵","name":"海绵丨4K网盘","type":3,"api":"csp_Hmxz","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./lib/tokenm.json$$$https://www.hmxz.org/$$$noproxy$$$1$$$./lib/hmxz.txt$$$HMXZ","style":{"type":"list","ratio":1.1}},
+{"key":"屁股_天逸","name":"天逸丨4K网盘","type":3,"api":"csp_TianYiSou","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./lib/tokenm.json$$$null$$$onproxy"},
+
 {"key":"屁股_百家","name":"百家丨4K网盘","type":3,"api":"csp_Wobg","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./lib/token.json$$$https://baijia.banye.tech:7086/$$$noproxy$$$1$$$./lib/wogg.json$$$BAIJIA"},
 
 {"key":"屁股_虎斑","name":"虎斑丨4K网盘","type":3,"api":"csp_Wobg","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./lib/token.json$$$https://huban.banye.tech:7086/$$$noproxy$$$1$$$./lib/wogg.json$$$U_HUBAN"},
@@ -75,7 +77,7 @@
 {"key":"屁股_叔叔","name":"叔叔丨4K网盘","type":3,"api":"csp_Wobg","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./lib/tokenm.json$$$https://woss.banye.tech:7086/$$$noproxy$$$1$$$./lib/wogg.json$$$WOSS"},
 {"key":"屁股_六趣","name":"六趣丨4K网盘","type":3,"api":"csp_Wobg","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./lib/token.json$$$https://liuqu.banye.tech:7086/$$$noproxy$$$1$$$./lib/wogg.json$$$LIUQU"},
 {"key":"屁股_立播","name":"立播丨4K网盘","type":3,"api":"csp_Libvio","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./lib/tokenm.json$$$https://libo.banye.tech:7086/$$$null$$$1"},
-	
+
 {"key":"屁股_团长","name":"团长丨4K网盘","type":3,"api":"csp_TZFile","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./lib/tokenm.json$$$noproxy$$$1"},
 {"key":"屁股_校长","name":"校长丨4K网盘","type":3,"api":"csp_XiaoZhang","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./lib/tokenm.json$$$https://mj028.cn/$$$noproxy$$$1"},
 {"key":"屁股_皮皮","name":"皮皮丨4K网盘","type":3,"api":"csp_Ppxzy","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./lib/tokenm.json$$$https://ppxzy.ink/$$$noproxy$$$1"},
@@ -105,32 +107,6 @@
 {"key":"潇洒_三六","name":"三六丨弹幕","type":3,"api":"csp_Sp360","searchable":1,"filterable":1,"changeable":1,"ext":{"danmu":true},"jar":"./jar/spider.jar;md5;ece2a878d66039fb737939e19af787af"},
 {"key":"潇洒_机器","name":"机器丨弹幕","type":3,"api":"csp_Ikanbot","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true},"jar":"./jar/spider.jar;md5;ece2a878d66039fb737939e19af787af"},
 {"key":"潇洒_苹果","name":"苹果丨弹幕","type":3,"api":"csp_Xpg","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true},"jar":"./jar/spider.jar;md5;ece2a878d66039fb737939e19af787af"},
-
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-{"key":"饭佬_原创","name":"原创丨1080P","type":3,"api":"csp_YCyzGuard","searchable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yc8144509/1/-/raw/main/fan.txt;md5;dda5ab42b722f13761900308a6caff89"},
-{"key":"饭佬_苹果","name":"苹果丨1080P","type":3,"api":"csp_LiteAppleGuard","searchable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yc8144509/1/-/raw/main/fan.txt;md5;dda5ab42b722f13761900308a6caff89"},
-{"key":"饭佬_糯米","name":"糯米丨1080P","type":3,"api":"csp_NmyswvGuard","searchable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yc8144509/1/-/raw/main/fan.txt;md5;dda5ab42b722f13761900308a6caff89"},
-{"key":"饭佬_白白","name":"白白丨1080P","type":3,"api":"csp_SbaibaiGuard","searchable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yc8144509/1/-/raw/main/fan.txt;md5;dda5ab42b722f13761900308a6caff89"},
-{"key":"饭佬_神车","name":"神车丨1080P","type":3,"api":"csp_AppSxGuard","searchable":1,"quickSearch":1,"changeable":1,"ext":"rfOX1voDIQhH8epBwpmIsuSzrWqbloq80ygmO9WjCB9RMwhf/nZ7r/EzcL5d1Nw67mKKK4Je","jar":"https://jihulab.com/yc8144509/1/-/raw/main/fan.txt;md5;dda5ab42b722f13761900308a6caff89"},
-{"key":"饭佬_在线","name":"在线丨1080P","type":3,"api":"csp_ZxzjGuard","searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.zxzjhd.com/","jar":"https://jihulab.com/yc8144509/1/-/raw/main/fan.txt;md5;dda5ab42b722f13761900308a6caff89"},
-{"key":"饭佬_溢彩","name":"溢彩丨1080P","type":3,"api":"csp_AppSKGuard","searchable":1,"quickSearch":0,"changeable":0,"ext":"rfOX1voDIQhH8epBwtCFsqytsyyZwsnimWFjKc+jS1xHcE9fpWU7oKJ1cO9Swdt5tnqCZsFHjiJz5HEyTr51QZvCqObdFjLuH/mEy+uqVyo=","jar":"https://jihulab.com/yc8144509/1/-/raw/main/fan.txt;md5;dda5ab42b722f13761900308a6caff89"},
-{"key":"饭佬_厂长","name":"厂长丨1080P","type":3,"api":"csp_NewCzGuard","searchable":1,"quickSearch":1,"changeable":1,"ext":"https://www.czzyvideo.com/","jar":"https://jihulab.com/yc8144509/1/-/raw/main/fan.txt;md5;dda5ab42b722f13761900308a6caff89"},
-{"key":"饭佬_比特","name":"比特丨1080P","type":3,"api":"csp_BttwooGuard","searchable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yc8144509/1/-/raw/main/fan.txt;md5;dda5ab42b722f13761900308a6caff89"},
-{"key":"饭佬_文采","name":"文才丨1080P","type":3,"api":"csp_JpysGuard","searchable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yc8144509/1/-/raw/main/fan.txt;md5;dda5ab42b722f13761900308a6caff89"},
-{"key":"饭佬_低端","name":"低端丨1080P","type":3,"api":"csp_DdrkGuard","searchable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yc8144509/1/-/raw/main/fan.txt;md5;dda5ab42b722f13761900308a6caff89"},
-{"key":"饭佬_木星","name":"木星丨1080P","type":3,"api":"csp_AppSxGuard","searchable":1,"quickSearch":1,"changeable":1,"ext":"FbjPcVZY48PN/RIZ5QqOrsplZNERApoHSmxZ77D7wAtcAsqZuXTQzUHW+quzHG+7cXaG3SBwzihuA2NlCJpscUJASIGSmRiXKW5NhipHle83SfO6IA==","jar":"https://jihulab.com/yc8144509/1/-/raw/main/fan.txt;md5;dda5ab42b722f13761900308a6caff89"},
-{"key":"饭佬_兄弟","name":"兄弟丨1080P","type":3,"api":"csp_AppSxGuard","searchable":1,"quickSearch":1,"filterable":1,"ext":"rfOb1uAWbkRHp7hdxprG9un3+SPP18283TImLpLgExtYZQQN4zdk5+Noc/Eej5B9p2CFZsBC2H4u6nl5FPAqUtc=","jar":"https://jihulab.com/yc8144509/1/-/raw/main/fan.txt;md5;dda5ab42b722f13761900308a6caff89"},
-{"key":"饭佬_火星","name":"火星丨1080P","type":3,"api":"csp_AppSxGuard","searchable":1,"quickSearch":1,"changeable":1,"ext":"rfOX1voDIQhH8epBwpmIsuSlujLK3srq3iIoaYP8Hh5fZE0d4nF48/dsb7YNi44z/yjNcsFajjBz6XJtDuw2FdqR/a6UV3ywWevO","jar":"https://jihulab.com/yc8144509/1/-/raw/main/fan.txt;md5;dda5ab42b722f13761900308a6caff89"},
-{"key":"饭佬_热播","name":"热播丨1080P","type":3,"api":"csp_AppTTGuard","searchable":1,"quickSearch":1,"changeable":1,"ext":"uqGL1bNENExT7/hGxpSE5qU=","jar":"https://jihulab.com/yc8144509/1/-/raw/main/fan.txt;md5;dda5ab42b722f13761900308a6caff89"},
-{"key":"饭佬_萌米","name":"萌米丨1080P","type":3,"api":"csp_AppTTGuard","searchable":1,"quickSearch":1,"changeable":1,"ext":"uqGL1bNENEIVq+dC1p/Y9uWjuA==","jar":"https://jihulab.com/yc8144509/1/-/raw/main/fan.txt;md5;dda5ab42b722f13761900308a6caff89"},
-{"key":"饭佬_欢视","name":"欢视丨1080P","type":3,"api":"csp_AppTTGuard","searchable":1,"quickSearch":1,"changeable":1,"ext":"uqGL1bNENExT9fFAy5mE5qU=","jar":"https://jihulab.com/yc8144509/1/-/raw/main/fan.txt;md5;dda5ab42b722f13761900308a6caff89"},
-{"key":"饭佬_奥特","name":"奥特丨1080P","type":3,"api":"csp_AueteGuard","timeout":15,"searchable":1,"quickSearch":1,"changeable":1,"ext":"https://auete.com/","jar":"https://jihulab.com/yc8144509/1/-/raw/main/fan.txt;md5;dda5ab42b722f13761900308a6caff89"},
-{"key":"饭佬_贱贱","name":"荐片丨4K磁力","type":3,"api":"csp_JPJGuard","searchable":1,"quickSearch":1,"changeable":0,"jar":"https://jihulab.com/yc8144509/1/-/raw/main/fan.txt;md5;dda5ab42b722f13761900308a6caff89"},
-{"key":"饭佬_新6V","name":"新6V丨4K磁力","type":3,"api":"csp_SixVGuard","searchable":1,"quickSearch":1,"changeable":0,"ext":"https://www.xb6v.com/","jar":"https://jihulab.com/yc8144509/1/-/raw/main/fan.txt;md5;dda5ab42b722f13761900308a6caff89"},
-{"key":"饭佬_巴士","name":"巴士丨1080P","type":3,"api":"csp_Dm84Guard","searchable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yc8144509/1/-/raw/main/fan.txt;md5;dda5ab42b722f13761900308a6caff89"},
-{"key":"饭佬_异界","name":"异界丨1080P","type":3,"api":"csp_YsjGuard","searchable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yc8144509/1/-/raw/main/fan.txt;md5;dda5ab42b722f13761900308a6caff89"},
-{"key":"饭佬_日本","name":"日本丨1080P","type":3,"api":"csp_Anime1Guard","searchable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yc8144509/1/-/raw/main/fan.txt;md5;dda5ab42b722f13761900308a6caff89"},
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -229,13 +205,13 @@
 {"key":"张群_索尼","name":"索尼丨克隆","type":4,"api":"http://jg.zhangqun66.com/sn.php","searchable":1,"quickSearch":1,"filterable":0},
 {"key":"张群_短剧","name":"短剧丨克隆","type":4,"api":"http://jg.zhangqun66.com/ww.php","searchable":1,"quickSearch":1,"filterable":0},
 
-{"key":"逗比_黑木","name":"黑木丨1080P","type":4,"api":"https://spider.doube.eu.org/spider?site=HeiMuEr","searchable":1,"quickSearch":1,"filterable":1,"changeable":0},
+{"key":"逗比_黑木","name":"黑木丨1080P","type":4,"api":"https://heimuer.ggff.net/api.php/tvbox","searchable":1,"quickSearch":1,"filterable":1,"changeable":0},
 {"key":"逗比_界影","name":"界影丨1080P","type":3,"api":"https://json.doube.eu.org/python/py_jieyingshi.py","searchable":1,"quickSearch":1,"filterable":0,"changeable":0},
-{"key":"逗比_爱瓜","name":"爱瓜丨1080P","type":4,"api":"https://spider.doube.eu.org/spider?site=AiGuaTV","searchable":1,"quickSearch":1,"filterable":0,"changeable":0},
 {"key":"逗比_嗨视","name":"嗨视丨1080P","type":4,"api":"https://py.doube.eu.org/spider?site=UpFuHn","searchable":1,"quickSearch":1,"filterable":0,"changeable":0},
+{"key":"逗比_爱瓜","name":"爱瓜丨1080P","type":4,"api":"https://json.doube.eu.org/python/py_aigua.py","searchable":1,"quickSearch":1,"filterable":0,"changeable":0},
+{"key":"逗比_八好","name":"八好丨1080P","type":4,"api":"https://py.doube.eu.org/spider?site=BaHaoTV","searchable":1,"quickSearch":1,"filterable":0,"changeable":0},
 {"key":"逗比_欧乐","name":"欧乐丨1080P","type":4,"api":"https://py.doube.eu.org/spider?site=OleVod","searchable":1,"quickSearch":1,"filterable":0,"changeable":0},
 {"key":"逗比_动漫","name":"动漫丨1080P","type":4,"api":"https://py.doube.eu.org/spider?site=Dm84","searchable":1,"quickSearch":1,"filterable":0,"changeable":0},
-{"key":"逗比_八好","name":"八好丨1080P","type":4,"api":"https://py.doube.eu.org/spider?site=BaHaoTV","searchable":1,"quickSearch":1,"filterable":0,"changeable":0},
 
 {"key":"唐三_独播","name":"独播丨1080P","type":4,"api":"https://tang.hz.cz/power/duboku?token=c3799fd7","searchable":1,"quickSearch":1,"filterable":1,"changeable":0},
 {"key":"唐三_欧乐","name":"欧乐丨1080P","type":4,"api":"https://tang.hz.cz/power/olelive?token=c3799fd7","searchable":1,"quickSearch":1,"filterable":1,"changeable":0},
