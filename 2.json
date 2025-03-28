@@ -1,5 +1,5 @@
 {
-"spider":"./jar/fan.txt;md5;54c3c5cd399274cfdbed01fd53e65fd4",
+"spider":"./jar/fan.txt;md5;cac8507a83aabbe8def930b8d0113085",
 "wallpaper":"https://深色壁纸.xxooo.cf",
 "logo":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716545739254/fc1b89e152cd4aa28d295107cb6c56c9.gif",
 "lives":[
@@ -10,8 +10,8 @@
 ],
 
 "sites":[
-{"key":"饭佬_饭佬搜索","name":"饭佬搜索ㅤ😃更新：2025年3月😃ㅤ🈲切勿信视频内广告🈲","type":3,"api":"csp_DouDouGuard","searchable":0,"quickSearch":0,"indexs":1},
-{"key":"悟空_悟空搜索","name":"悟空搜索ㅤ😃更新：2025年3月😃ㅤ🈲切勿信视频内广告🈲","type":3,"api":"./lib/lf_search3_min.js","searchable":0,"changeable":0,"quickSearch":0},
+{"key":"饭佬_饭佬搜索","name":"饭佬搜索ㅤ😃更新：2025年4月😃ㅤ🈲切勿信视频内广告🈲","type":3,"api":"csp_DouDouGuard","searchable":0,"quickSearch":0,"indexs":1},
+{"key":"悟空_悟空搜索","name":"悟空搜索ㅤ😃更新：2025年4月😃ㅤ🈲切勿信视频内广告🈲","type":3,"api":"./lib/lf_search3_min.js","searchable":0,"changeable":0,"quickSearch":0},
 {"key":"潇洒_广场","name":"广场丨舞蹈","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"style":{"type":"rect","ratio":1.597},"ext":{"danmu":false,"cookie":"./lib/bilibili.txt","json":"./bilibili/哔哩合集.json"},"jar":"./jar/spider.jar;md5;ece2a878d66039fb737939e19af787af"},
 
 {"key":"潇洒_学习","name":"哔哩丨学习","type":3,"api":"csp_Bili","searchable":0,"filterable":0,"style":{"type":"rect","ratio":1.597},"ext":{"cookie":"./lib/bilibili.txt","json":"./bilibili/学习园地.json"},"timeout":20,"jar":"./jar/spider.jar;md5;ece2a878d66039fb737939e19af787af"},
