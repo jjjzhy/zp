@@ -9,26 +9,26 @@
 "is_vip":true,
 "vip_thread_limit":32,
 "vip_thread_limit_night":"19-23=10",
-"vod_flags":"4kz|auto",
+"vod_flags":"auto|4kz",
 	
 "quark_thread_limit":32,
 "quark_thread_limit_night":"19-23=10",
 "quark_is_guest":false,
 "quark_vip_thread_limit":32,
 "quark_vip_thread_limit_night":"19-23=10",
-"quark_flags":"4kz|auto",
+"quark_flags":"auto|4kz",
 	
 "uc_thread_limit":10,
 "uc_is_vip":false,
 "uc_vip_thread_limit":10,
-"uc_flags":"4kz|auto",
+"uc_flags":"auto|4kz",
 "uc_thread_limit_night":"19-23=10",
 "uc_vip_thread_limit_night":"19-23=10",
 	
 "thunder_thread_limit":2,
 "thunder_is_vip":false,
 "thunder_vip_thread_limit":2,
-"thunder_flags":"4kz|auto",
+"thunder_flags":"auto|4kz",
 		
 "aliproxy":"",
 "aliproxy_url":"./aliproxy.tar.xz",
@@ -37,15 +37,14 @@
 
 "quark_danmu":true,
 "quark_cookie":"",
-"uc_cookie":"",
 
-"thunder_username":"",
-"thunder_password":"",
+"thunder_username":"+86 18052000426",
+"thunder_password":"z123456789",
 "thunder_captchatoken":"",
 
 "yd_auth":"",
 "yd_thread_limit":4,
-"yd_flags":"4kz|auto",
+"yd_flags":"auto|4kz",
 "yd_danmu":true,
   
 "pikpak_username":"",
@@ -84,7 +83,7 @@
 "pan115_thread_limit":0,
 "pan115_vip_thread_limit":0,
 "pan115_is_vip":false,
-"pan115_flags":"4kz|auto",
+"pan115_flags":"auto|4kz",
 "pan115_speed_limit":0,
 "pan115_speed_limit_mobile":10485760,
 "pan115_auto_delete":true,
@@ -96,8 +95,8 @@
 "tgsearch_api_session":"",
 "tgsearch_api_session_v1":"",
 "tgsearch_api_proxy":"proxy",
-"tgsearch_api_url":"http://tg.fish2018.ip-ddns.com",
-"tgsearch_media_url":"http://tg.fish2018.ip-ddns.com",
+"tgsearch_api_url":"http://tg3.fish2018.ip-ddns.com/",
+"tgsearch_media_url":"http://tg3.fish2018.ip-ddns.com/",
 
 "allinone_url":"./allinone.tar.xz",
 
