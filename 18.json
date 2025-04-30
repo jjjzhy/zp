@@ -12,11 +12,11 @@
 
 "sites":[
 //{"key":"合集","name":"点击ㅤㅤ⤵⤵⤵⤵⤵⤵⤵⤵⤵⤵⤵⤵⤵⤵ㅤ“主页”更精彩!ㅤ👍👍👍","type":4,"api":"./js/18/合集.json","searchable":0,"quickSearch":0,"filterable":0,"indexs":1},
+{"key":"牛皮","name":"🔞牛皮","type":3,"api":"https://y.337898581.xyz/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/lavAPP.py","searchable":1,"quickSearch":1},
 {"key":"配置","name":"配置","type":3,"api":"csp_Config","searchable":0,"changeable":0,"ext":"./lib/tokenm.json","timeout":60},
 {"key":"直播","name":"🔞直播","type":3,"api":"https://y.337898581.xyz/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/py/py_色播聚合.py","searchable":1,"quickSearch":1,"filterable":0,"changeable":0},
 {"key":"点播","name":"🔞点播","type":3,"searchable":0,"api":"https://cnb.cool/fish2018/pg/-/git/raw/master/lib/live2vod.js","ext":"https://y.337898581.xyz/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/json/feimaolive.json"},
 
-{"key":"lav","name":"🔞lav","type":3,"api":"https://y.337898581.xyz/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/lavAPP.py","searchable":1,"quickSearch":1},
 {"key":"麻豆","name":"🔞麻豆","type":4,"api":"https://json.doube.eu.org/app/index.php?site=dbmadou","searchable":1,"quickSearch":1,"filterable":0,"changeable":0,"style":{"type":"rect","ratio":1.5}},
 {"key":"最色","name":"❤️最大","type":3,"api":"csp_Zuise","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"ext":"null$$$1","timeout":60},
 {"key":"香蕉","name":"🔞香蕉","type":3,"api":"https://y.337898581.xyz/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/香蕉APP.py","searchable":1,"quickSearch":1},
