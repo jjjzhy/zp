@@ -1,5 +1,5 @@
 {
-"token":"81460b0308164f6cb6f55c6a70b796c1",
+"token":"",
 "open_token":"",
 "open_api_url":"postparam|http://api.extscreen.com/aliyundrive/token",
 "oauth_client_id":"",
@@ -36,20 +36,19 @@
 "danmu":true,
 
 "quark_danmu":true,
-"quark_cookie":"b-user-id=8ae389e0-b43a-913d-88d2-409e73952213; _UP_A4A_11_=wb9c811a9c28431d976acf9e51d946ca; __wpkreporterwid_=457210f6-81db-446d-bbdb-7010a0dcd3be; __kps=AATMDd9rhX2zQ3YaAKxUfPHp; __ktd=qZFaYFkQOBnf3lE++nmnTw==; __uid=AATMDd9rhX2zQ3YaAKxUfPHp; __sdid=AAT2WqmTmseF4sCM5gyHPvDtIoWap/KenZaa7Ut6IP8x/em0a8O+q097wU5qesj1iWqMc/uxoS0aEzVYKRIqoat8JTVGLyMu22gQk0TEFTZ4Bw==; b-user-id=8ae389e0-b43a-913d-88d2-409e73952213; kkpcwpea=a=a&uc_param_str=einibicppfmivefrlantcunwsssvjbktchnnsnddds&instance=kkpcwp&pf=145&self_service=true&wxUid=AATMDd9rhX2zQ3YaAKxUfPHp&plain_utdid=Z%2FM1SQAAACkDAKO0GAoGZYc2&system_ver=Windows_NT_10.0.26100&channel_no=pckk%40other_ch&ve=3.19.0&sv=release; CwsSessionId=e1a4c6dd-f7e7-4d73-9911-f77aa1422113; isg=BL-_Tl036_6ZduASy4jwJnHkTpNJpBNGoo9sI1GNUG61YNziWXWklh35pjCeOOu-; __itrace_wid=5b508eb5-1cf5-4f09-81a9-9c464eb7584e; __pus=a5513d87a5e125cc8cb1b9ce6f6ea492AATzXV9lnk7uJSCyfiLQZX1FOoDqI6+hjIu2PuHqdiz+PfPWnG5ynqbg+rVx0Vjz6AiyqSDEx5wwcnisJd0L7w1z; __kp=dc1bb1e0-24d2-11f0-803c-2b58663d56e8; ctoken=-uVgkzcmGv-plTXrh6hdTrJF; web-grey-id=b70ae1d7-5b86-20bd-d923-2a1066b92521; web-grey-id.sig=4Hm-irvjQ_JF_ZtgOKjKcP2pyl9tDUkRz60JOeFAdaM; grey-id=bcb098d0-8765-122c-8f9d-7ad65469d8bf; grey-id.sig=lCYOOXpSiASDyWME-xZrrGOcrsowd9juekC7-_YIAU8; isQuark=true; isQuark.sig=hUgqObykqFom5Y09bll94T1sS9abT1X-4Df_lzgl8nM; __puus=21770679e4b60f971bb2ee6e568f2682AARUmXFyDv00TKBRIRC4P/HhKznMxtEVg0/kneIBMOgfPeh3is0ATHyDeYKEAUizgspdd4iftXdqC8WkgN5V3t+jSgmanNsXHNXgIpdChOvpHIoxWZ7J3bTbKQlxzQy1DWVj13BuR1YQ9kR5D6TwJvml+DPzgqZsHemHb1TXxGZ1ea1EIJl0CErDckY3bFckTvZcMzOgR1rsqcBv5/yLyl0f",
-"uc_cookie":"UDRIVE_TRANSFER_SESS=UpLXXX2HAXJNW0AHgDcMun5ipkNkoZ9e_x0bF52sDrk2u1MCyRgwYygJZHJdyXHkUKg5TSXvb3Vjc6QiM4Ik7nhK0LHWr2Q-gUXW7rspj8DNfOzPIdOtdBendPjQYZEq4K65wllxcPjtAEXweibN2GYV8yGueBcbTAWUfzXFv7hIns4ILUHTRmINY4kuHisN; b-user-id=db6300da-dc78-f6f8-8b00-987bacf482df; __itrace_wid=fdf949c4-d219-414c-b1e9-b226e07bacf2; ctoken=o97Zd44d1vpLDoLvphGBlMUU; _UP_28A_52_=381; _UP_A4A_11_=wb9c816d2b674852b678c53f1b6ca8bb; _UP_D_=pc; _UP_F7E_8D_=i74i77uRTzv%2F3vHy1oVbXg4xSFJCciE%2B4rfS%2FDcpixHeoaTIXLW9DM52ttisGwVBM1V0wvevIvJLHpvA%2Fhicy1HUTu2LBlCPom4qTWeMFqCgN55FQx3lIyu%2B1OsWIKjG1w4pOGWcZjvuo4m2jHof9eRj66wpeTPO4r7NBD%2F4wEE0IpjIBHWretgcndtvmRjOLAp5J0ZD5XPEPa8R3MU9%2Brzk4nczcPLP1rSgCMVm5ws2Z%2BPyTAVLm9DknFGHhIbrYaBM9qbTYbjOL2P0SMwFusBEtlq28oiuWwOmfIV4%2FRAVOMEdD6uzZJXMxBnUatpyAHLu79tlMNqP8TGNMQXXgvSqK5ufzR58ZeivnehV0qE%2FWt1yDEDt%2BfWrmT4mVs6zZWXvqpzmoV3MeygIUCEakh2GAn6rsLT1sf4GAak5y386F8u7yQFbh%2F0Q7RCSfK2U6tAXQttwc%2FtDK7HYGyvolg%3D%3D; __pus=a67966c300e1afd5899c59391f24206bAARhM/7P1qqSwQcA0LEpsyTDnV/uTvJ7kcgNoPGrBYJ79QmxP2atQgHRD7wqhoVfiNJd9a8Yjpr7ZIXiWH8TgMKg; __kp=d3aea960-2561-11f0-b869-4ff1c2db3f3e; __kps=AAQhohjLsXsJCvwn/v6ykJhY; __ktd=LNyvdc4e+UEhmTW8Z8fLIw==; __uid=AAQhohjLsXsJCvwn/v6ykJhY; __puus=ab9dc5e2bdf5576aa9db032d3f497fc3AATdFkPGsqhz54hRjSOBsQPY+5Zr9xdub87JYsg6KK8HdWziywPjkGv3QmBrwjdMxaTiOvQsu3i0QknPmYFEM7xhoioKDnQylGpFhF+d6hZ3rgDdaIG8g24lBIuEOXslkyaC2Wrfv7ekK8vYvxQkfD634or4tRZD9HRmBSNJK6CaI7KfxianFo5Z87slSBbpfbo=",
+"quark_cookie":"",
 
 "thunder_username":"+86 18052000426",
 "thunder_password":"z123456789",
 "thunder_captchatoken":"",
 
-"yd_auth":"Basic cGM6MTgwNTIwMDA0MjY6ZkpaMThEa0Z8MXxSQ1N8MTc0ODU2ODUyMDQ5MXxnbVJ0c0IwbVM1cWZjUkJ1c3N6ZEx5X0M0bXB6WnJ4YTJubGFadERfckR0UHpFZ2ZWQ2tRWFpYZVMyYU5XSzI1TExqXzZTY00wWFBicUZ0b3RrYy5kQlRvZ01TdDdxNVRkMXJhVU9iQ01OdnpuOFNhQ0lWZnB0SzVPejgzUS56azNGNGdRTEVMeUdoYlBFMXBVRU84OXdncGRfZW1zbGxOODJ5YjFMcXp6aXct",
+"yd_auth":"",
 "yd_thread_limit":4,
 "yd_flags":"auto|4kz",
 "yd_danmu":true,
   
-"pikpak_username":"yxy20150427@gmail.com",
-"pikpak_password":"Zz123456789",
+"pikpak_username":"",
+"pikpak_password":"",
 "pikpak_flags":"4k|auto",
 "pikpak_thread_limit":2,
 "pikpak_vip_thread_limit":2,
@@ -57,15 +56,15 @@
 "pikpak_proxy_onlyapi":false,
 "pikpak_danmu":true,
 
-"wgcf_key":"eLPYOt5B+H9sQQrg6tbx13pPt3I5B/lo/LfP/NcU83s=",
-"wgcf_key2":"WFUEo5mjfMEunjT0i9TL2zzYK8b81alg9kE0MG5gAEQ=",
-"wgcf_ipport":"162.159.195.145:8319",
+"wgcf_key":"",
+"wgcf_key2":"",
+"wgcf_ipport":"",
 "wgcf_xray_url":"./xray.gz",
 "wgcf_geoip_url":"./geoip.dat.gz",
 "wgcf_json_url":"./wgcf.json",
-"wgcf_vless_id":"add25d41-b537-4f72-bf88-15602d0aad00",
-"wgcf_vless_optname":"cf.090227.xyz:8880",
-"wgcf_vless_worker":"yg.337898581.xyz",
+"wgcf_vless_id":"",
+"wgcf_vless_optname":"",
+"wgcf_vless_worker":"",
 "wgcf_vless_path":"/?ed=2560",
 "wgcf_vless_protocol":"vless",
 "wgcf_vless_network":"ws",
@@ -75,12 +74,12 @@
 "youtube_proxy":"proxy", 
 
 "singbox_url":"./sing-box.tar.xz",
-"singbox_subscribe_url":"https://yg.337898581.xyz/add25d41-b537-4f72-bf88-15602d0aad00/psb|http://192.168.68.202:8299/download/sub?target=sing-box",
+"singbox_subscribe_url":"https://yg.337898581.xyz/add25d41-b537-4f72-bf88-15602d0aad00/psb|https://cf.337898581.xyz/6e0b5d8c-1e29-49c9-90c1-c6cd973c1d66/psb",
 "singbox_clash2singbox_url":"./clash2singbox.tar.xz",
 "singbox_template_url":"./singbox.json",
 "singbox_wgcf_json_url":"./wgcf2singbox.json",
 
-"pan115_cookie":"UID=360718590_R2_1745976829; CID=2c35b4c406cc9a69e0b22982f5175c1e; SEID=8d1bdc54e9b6d552c1885e5643cdba449aa8a0f2a955569e8f2fe6b5b5242d07899e6ffc169a016ff58eb2dd3e1ce30ce942594600cbb0d1a0e79e74; KID=68bad3281eb6362cc6c7c2d87d858cf9",
+"pan115_cookie":"",
 "pan115_thread_limit":0,
 "pan115_vip_thread_limit":0,
 "pan115_is_vip":false,
@@ -96,21 +95,21 @@
 "tgsearch_api_session":"",
 "tgsearch_api_session_v1":"",
 "tgsearch_api_proxy":"proxy",
-"tgsearch_api_url":"https://tg.xueximeng.com/",
-"tgsearch_media_url":"https://tg.xueximeng.com/",
+"tgsearch_api_url":"http://tg3.fish2018.ip-ddns.com/",
+"tgsearch_media_url":"http://tg3.fish2018.ip-ddns.com/",
 
 "allinone_url":"./allinone.tar.xz",
 
 "pan_order":"quark|189|123|yd|uc|thunder|ali|115|pikpak",
 	
-"pan123_username":"18052000427",
-"pan123_password":"z123456789",
+"pan123_username":"",
+"pan123_password":"",
 "pan123_flags":"4kz",
 
-"pan189_username":"18052000427",
-"pan189_password":"Zz57115160@",
+"pan189_username":"",
+"pan189_password":"",
 "pan189_flags":"4kz",
 
-"uc_ut":"AARLmS5oY42G3oQlEPgYQyamf3BT3KjnXemmbDKqEwjBvVoC1j1dL6oEL/eUE6FOmFM="
+"uc_ut":""
 
 }
