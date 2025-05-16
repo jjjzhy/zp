@@ -1,549 +1,63 @@
-var rule = {
-    title: "路漫漫",
-    host: "http://www.lmm36.com",
-    url: "/vod/show/id/fyclassfyfilter.html",
-    searchUrl: '/vod/search/page/fypage/wd/**.html',
-    searchable: 2,
-    quickSearch: 0,
-    filterable: 1,
-    filter: {
-        "3": [{
-            "key": "年代",
-            "name": "年代",
-            "value": [{
-                "n": "全部",
-                "v": ""
-            }, {
-                "n": "2025",
-                "v": "/year/2025"
-            }, {
-                "n": "2024",
-                "v": "/year/2024"
-            }, {
-                "n": "2023",
-                "v": "/year/2023"
-            }, {
-                "n": "2022",
-                "v": "/year/2022"
-            }, {
-                "n": "2021",
-                "v": "/year/2021"
-            }, {
-                "n": "2020",
-                "v": "/year/2020"
-            }, {
-                "n": "2019",
-                "v": "/year/2019"
-            }, {
-                "n": "2018",
-                "v": "/year/2018"
-            }, {
-                "n": "2017",
-                "v": "/year/2017"
-            }, {
-                "n": "2016",
-                "v": "/year/2016"
-            }, {
-                "n": "2015",
-                "v": "/year/2015"
-            }, {
-                "n": "更早",
-                "v": "/year/2014-1980"
-            }]
-        }, {
-            "key": "排序",
-            "name": "排序",
-            "value": [{
-                "n": "最近更新",
-                "v": "/by/time"
-            }, {
-                "n": "最高人气",
-                "v": "/by/hits"
-            }, {
-                "n": "最高评分",
-                "v": "/by/score"
-            }, {
-                "n": "最多点赞",
-                "v": "/by/up"
-            }]
-        }],
-        "4": [{
-            "key": "年代",
-            "name": "年代",
-            "value": [{
-                "n": "全部",
-                "v": ""
-            }, {
-                "n": "2025",
-                "v": "/year/2025"
-            }, {
-                "n": "2024",
-                "v": "/year/2024"
-            }, {
-                "n": "2023",
-                "v": "/year/2023"
-            }, {
-                "n": "2022",
-                "v": "/year/2022"
-            }, {
-                "n": "2021",
-                "v": "/year/2021"
-            }, {
-                "n": "2020",
-                "v": "/year/2020"
-            }, {
-                "n": "2019",
-                "v": "/year/2019"
-            }, {
-                "n": "2018",
-                "v": "/year/2018"
-            }, {
-                "n": "2017",
-                "v": "/year/2017"
-            }, {
-                "n": "2016",
-                "v": "/year/2016"
-            }, {
-                "n": "2015",
-                "v": "/year/2015"
-            }, {
-                "n": "更早",
-                "v": "/year/2014-1980"
-            }]
-        }, {
-            "key": "排序",
-            "name": "排序",
-            "value": [{
-                "n": "最近更新",
-                "v": "/by/time"
-            }, {
-                "n": "最高人气",
-                "v": "/by/hits"
-            }, {
-                "n": "最高评分",
-                "v": "/by/score"
-            }, {
-                "n": "最多点赞",
-                "v": "/by/up"
-            }]
-        }],
-        "5": [{
-            "key": "年代",
-            "name": "年代",
-            "value": [{
-                "n": "全部",
-                "v": ""
-            }, {
-                "n": "2025",
-                "v": "/year/2025"
-            }, {
-                "n": "2024",
-                "v": "/year/2024"
-            }, {
-                "n": "2023",
-                "v": "/year/2023"
-            }, {
-                "n": "2022",
-                "v": "/year/2022"
-            }, {
-                "n": "2021",
-                "v": "/year/2021"
-            }, {
-                "n": "2020",
-                "v": "/year/2020"
-            }, {
-                "n": "2019",
-                "v": "/year/2019"
-            }, {
-                "n": "2018",
-                "v": "/year/2018"
-            }, {
-                "n": "2017",
-                "v": "/year/2017"
-            }, {
-                "n": "2016",
-                "v": "/year/2016"
-            }, {
-                "n": "2015",
-                "v": "/year/2015"
-            }, {
-                "n": "更早",
-                "v": "/year/2014-1980"
-            }]
-        }, {
-            "key": "排序",
-            "name": "排序",
-            "value": [{
-                "n": "最近更新",
-                "v": "/by/time"
-            }, {
-                "n": "最高人气",
-                "v": "/by/hits"
-            }, {
-                "n": "最高评分",
-                "v": "/by/score"
-            }, {
-                "n": "最多点赞",
-                "v": "/by/up"
-            }]
-        }],
-        "6": [{
-            "key": "年代",
-            "name": "年代",
-            "value": [{
-                "n": "全部",
-                "v": ""
-            }, {
-                "n": "2025",
-                "v": "/year/2025"
-            }, {
-                "n": "2024",
-                "v": "/year/2024"
-            }, {
-                "n": "2023",
-                "v": "/year/2023"
-            }, {
-                "n": "2022",
-                "v": "/year/2022"
-            }, {
-                "n": "2021",
-                "v": "/year/2021"
-            }, {
-                "n": "2020",
-                "v": "/year/2020"
-            }, {
-                "n": "2019",
-                "v": "/year/2019"
-            }, {
-                "n": "2018",
-                "v": "/year/2018"
-            }, {
-                "n": "2017",
-                "v": "/year/2017"
-            }, {
-                "n": "2016",
-                "v": "/year/2016"
-            }, {
-                "n": "2015",
-                "v": "/year/2015"
-            }, {
-                "n": "更早",
-                "v": "/year/2014-1980"
-            }]
-        }, {
-            "key": "排序",
-            "name": "排序",
-            "value": [{
-                "n": "最近更新",
-                "v": "/by/time"
-            }, {
-                "n": "最高人气",
-                "v": "/by/hits"
-            }, {
-                "n": "最高评分",
-                "v": "/by/score"
-            }, {
-                "n": "最多点赞",
-                "v": "/by/up"
-            }]
-        }],
-        "7": [{
-            "key": "年代",
-            "name": "年代",
-            "value": [{
-                "n": "全部",
-                "v": ""
-            }, {
-                "n": "2025",
-                "v": "/year/2025"
-            }, {
-                "n": "2024",
-                "v": "/year/2024"
-            }, {
-                "n": "2023",
-                "v": "/year/2023"
-            }, {
-                "n": "2022",
-                "v": "/year/2022"
-            }, {
-                "n": "2021",
-                "v": "/year/2021"
-            }, {
-                "n": "2020",
-                "v": "/year/2020"
-            }, {
-                "n": "2019",
-                "v": "/year/2019"
-            }, {
-                "n": "2018",
-                "v": "/year/2018"
-            }, {
-                "n": "2017",
-                "v": "/year/2017"
-            }, {
-                "n": "2016",
-                "v": "/year/2016"
-            }, {
-                "n": "2015",
-                "v": "/year/2015"
-            }, {
-                "n": "更早",
-                "v": "/year/2014-1980"
-            }]
-        }, {
-            "key": "排序",
-            "name": "排序",
-            "value": [{
-                "n": "最近更新",
-                "v": "/by/time"
-            }, {
-                "n": "最高人气",
-                "v": "/by/hits"
-            }, {
-                "n": "最高评分",
-                "v": "/by/score"
-            }, {
-                "n": "最多点赞",
-                "v": "/by/up"
-            }]
-        }],
-        "8": [{
-            "key": "年代",
-            "name": "年代",
-            "value": [{
-                "n": "全部",
-                "v": ""
-            }, {
-                "n": "2025",
-                "v": "/year/2025"
-            }, {
-                "n": "2024",
-                "v": "/year/2024"
-            }, {
-                "n": "2023",
-                "v": "/year/2023"
-            }, {
-                "n": "2022",
-                "v": "/year/2022"
-            }, {
-                "n": "2021",
-                "v": "/year/2021"
-            }, {
-                "n": "2020",
-                "v": "/year/2020"
-            }, {
-                "n": "2019",
-                "v": "/year/2019"
-            }, {
-                "n": "2018",
-                "v": "/year/2018"
-            }, {
-                "n": "2017",
-                "v": "/year/2017"
-            }, {
-                "n": "2016",
-                "v": "/year/2016"
-            }, {
-                "n": "2015",
-                "v": "/year/2015"
-            }, {
-                "n": "更早",
-                "v": "/year/2014-1980"
-            }]
-        }, {
-            "key": "排序",
-            "name": "排序",
-            "value": [{
-                "n": "最近更新",
-                "v": "/by/time"
-            }, {
-                "n": "最高人气",
-                "v": "/by/hits"
-            }, {
-                "n": "最高评分",
-                "v": "/by/score"
-            }, {
-                "n": "最多点赞",
-                "v": "/by/up"
-            }]
-        }]
-    },
-    filter_url: "{{fl.排序}}{{fl.年代}}/page/fypage",
-    filter_def: "",
-    headers: {
-        "User-Agent": "MOBILE_UA"
-    },
-    timeout: 5000,
-    class_name: "日本动漫&国产动漫&欧美动漫&日本动画电影&国产动画电影&欧美动画电影",
-    class_url: "6&7&8&3&4&5",
-    class_parse: "",
-    cate_exclude: "",
-    play_parse: true,
-    lazy: $js.toString(() => {
-        function getDAesString(token) {
-            eval(getCryptoJS());
-            var key = CryptoJS.enc.Utf8.parse("ejjooopppqqqrwww");
+<!DOCTYPE HTML>
+<!--
+	Identity by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Catvod | 主页</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta http-equiv="Cache-Control" content="no-transform">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover">
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="Cache-Control" content="no-transform">
+		<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+		<meta name="theme-color" content="#0F7D00">
+		<meta name="msapplication-TileColor" content="#0F7D00">
+		<link rel="stylesheet" href="css/main.css" />
+		<noscript><link rel="stylesheet" href="css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-            var iv = CryptoJS.enc.Utf8.parse("1348987635684651");
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-            var token = CryptoJS.AES.decrypt(token, key, {
-                iv: iv,
-                mode: CryptoJS.mode.CBC,
-                padding: CryptoJS.pad.Pkcs7,
-            });
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img src="image/avatar.jpg" alt="" /></span>
+							<h1>Catvod.com</h1>
+							<p>简简单单！</p>
+						</header>
+						<footer>
+							<ul class="icons">
+								<li><a href="https://tvbox.catvod.com/" target="_blank" class="icon solid fa-blog" title="Tvbox接口"><span class="label">Tvbox接口</span></a></li>
+								<li><a href="https://github.catvod.com/" target="_blank" rel="noopener" class="icon regular fa-layer-group" title="GitHub 文件加速"><span class="label">GitHub 文件加速</span></a></li>
+								<li><a href="https://imgs.catvod.com/" target="_blank" rel="noopener" class="icon brands fa-instagram" title="随机精美壁纸"><span class="label">随机精美壁纸</span></a></li>
+								<li><a href="https://img.catvod.com/" target="_blank" rel="noopener" class="icon brands fa-instagram" title="4K随机背景图片"><span class="label">4K随机背景图片</span></a></li>
+								<li><a href="https://www.catvod.com/jiaoliu" target="_blank" rel="nofollow noopener" class="icon fas fa-envelope" title="联系我们"><span class="label">联系我们</span></a></li>
+							</ul>
+						</footer>
+					</section>
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>&copy; 2025 <a href="https://www.Catvod.com/" target="_blank">Catvod.com</a></li>
+						</ul>
+					</footer>
 
-            return token.toString(CryptoJS.enc.Utf8);
-        }
+			</div>
 
-        var html = JSON.parse(request(input).match(/r player_.*?=(.*?)</)[1]);
-        var url = html.url;
-        var from = html.from;
-        if (html.encrypt == "1") {
-            url = unescape(url);
-        } else if (html.encrypt == "2") {
-            url = unescape(base64Decode(url));
-        }
-        if (/\.mp4|\.m3u8|\.flv/.test(url)) {
-            input = {
-                parse: 0,
-                url: url.split("&")[0],
-                js: ''
-            };
-        } else {
-            var jsh = request(HOST + "/static/player/" + from + ".js", {
-                headers: {
-                    Referer: input
-                },
-            }).match(/\.src\s*=\s*(.*?);/)[1];
-            //log(MY_HOME);
-            if (/type=/.test(jsh)) {
-                jsh = jsh
-                    .replace(/[\+\s']/g, "")
-                    .replace(/MacPlayer.Parse/, "")
-                    .replace(/MacPlayer.PlayUrl/, url)
-                    .replace(/window.location.href/, input);
-                var playht = fetch(jsh, {
-                    headers: {
-                        Referer: HOST
-                    }
-                });
-            } else {
-                jsh = jsh
-                    .replace(/[\+\s']/g, "")
-                    .replace(/MacPlayer.Parse/, "")
-                    .replace(/MacPlayer.PlayUrl/, url)
-                    .replace(/window.location.href/, input);
-
-                jsh = JSON.parse(
-                    fetch(jsh, {
-                        headers: {
-                            Referer: HOST
-                        },
-                        onlyHeaders: true
-                    })
-                ).url;
-                var playht = fetch(jsh, {
-                    headers: {
-                        Referer: HOST
-                    }
-                });
-            }
-
-            var postapi = jsh.match(/^(.*?\/\/.*?\/.*?\/)/)[1];
-
-            var posturl = postapi + playht.match(/post\("(.*?)"/)[1];
-            if (/act\s*=/.test(playht)) {
-                var vid = playht.match(/vid\s*=\s*"(.*?)"/)[1];
-                var t = playht.match(/var\s*t\s*=\s*"(.*?)"/)[1];
-                var token = playht.match(/token\s*=\s*"(.*?)"/)[1];
-                var act = playht.match(/act\s*=\s*"(.*?)"/)[1];
-                var play = playht.match(/play\s*=\s*"(.*?)"/)[1];
-                token = getDAesString(token);
-
-                var data = JSON.parse(
-                    post(posturl, {
-                        headers: {
-                            Referer: HOST
-                        },
-                        body: {
-                            vid: vid,
-                            t: t,
-                            token: token,
-                            act: act,
-                            play: play,
-                        },
-                        timeout: 5000
-                    })
-                );
-                input = {
-                    parse: 0,
-                    url: data.url,
-                    js: ''
-                };
-            } else {
-                var key = "";
-
-                playht.match(/var (\w+)="(.*?)";/g).forEach(function(list) {
-                    key += list.match(/"(.*?)"/)[1];
-                });
-                const bodys = JSON.parse(
-                    playht
-                    .match(/post\(.*?,(.*?),\n/)[1]
-                    .replace(/"keyyy"\s*:\s*''.*?''/, '"keyyy" : "' + key + '"')
-                );
-                var data = JSON.parse(
-                    post(posturl, {
-                        headers: {
-                            Referer: HOST
-                        },
-                        body: bodys
-                    })
-                );
-                if (data.ext == "xgplayer") {
-                    var dataurl =
-                        "https://yun.366day.site/mp4hls/xgplayer.php?vid=" + data.url;
-                    var video = fetch(dataurl, {
-                        headers: {
-                            Referer: jsh
-                        }
-                    }).match(
-                        /"url": "(.*?)"/
-                    )[1];
-                    input = {
-                        parse: 0,
-                        url: video,
-                        js: ''
-                    };
-                } else if (data.ext == "hls" || data.ext == "hls_list") {
-                    input = {
-                        parse: 0,
-                        url: decodeURIComponent(data.url),
-                        js: ''
-                    };
-                } else {
-                    input = {
-                        parse: 0,
-                        url: data.url,
-                        js: ''
-                    };
-                }
-            }
-        }
-    }),
-    double: false,
-    推荐: "*",
-    一级: ".video-img-box;h6.title&&Text;.lazyload&&data-src;.label&&Text;a&&href",
-    二级: {
-        title: ".page-title&&Text;.tag-link&&Text",
-        img: ".module-item-pic&&.lazyload&&src",
-        desc: ".video-info-items:eq(3)&&Text;.video-info-items:eq(2)&&Text;;.video-info-items:eq(1)&&Text;.video-info-items:eq(0)&&Text",
-        content: ".video-info-content&&Text",
-        tabs: ".module-tab-item.tab-item",
-        lists: ".module-player-list:eq(#id) a",
-        tab_text: "body&&Text",
-        list_text: "body&&Text",
-        list_url: "a&&href"
-    },
-    detailUrl: "",
-    搜索: "*"
-}
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+			<script>
+			console.log("%c%cCatvod.com%chttps://www.Catvod.com", "line-height:28px;", "line-height:28px;padding:4px;background:#2ccbe6;color:#FADFA3;font-size:14px;", "padding:4px 4px 4px 2px;background:#ff146d;color:green;line-height:28px;font-size:12px;");
+            </script>
+	</body>
+</html>

@@ -14,11 +14,13 @@
 {"key":"配置","name":"配置","type":3,"api":"csp_Config","searchable":0,"changeable":0,"ext":"./lib/tokenm.json","timeout":60},
 {"key":"最色","name":"❤️最大","type":3,"api":"csp_Zuise","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"ext":"null$$$1","timeout":60},
 {"key":"麻豆","name":"🔞麻豆","type":4,"api":"https://json.doube.eu.org/app/index.php?site=dbmadou","searchable":1,"quickSearch":1,"filterable":0,"changeable":0,"style":{"type":"rect","ratio":1.5}},
+{"key":"php_","name":"🔞麻豆(T4)","type":4,"api":"https://json.doube.eu.org/madou.php","searchable":1,"quickSearch":0,"filterable":0,"changeable":0,"style":{"type":"rect","ratio":1.5}},
+{"key":"py_新闻","name":"🔞新闻(T4)","type":4,"api":"https://py.doube.eu.org/spider?site=BadNews","searchable":1,"quickSearch":0,"filterable":0,"changeable":0,"style":{"type":"rect","ratio":1.5}},
+
 {"key":"牛皮","name":"🔞牛皮","type":3,"api":"https://y.337898581.xyz/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/lavAPP.py","searchable":1,"quickSearch":1},
 {"key":"红薯","name":"🔞红薯","type":3,"api":"https://y.337898581.xyz/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/小红薯APP.py","searchable":1,"quickSearch":1},
 {"key":"DSYS","name":"🔞DSYS","type":3,"api":"https://y.337898581.xyz/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/DSYS.py","searchable":1,"quickSearch":1},
-{"key":"Miss","name":"🔞Miss","type":3,"api":"./js/18/Miss.py","searchable":1,"quickSearch":1},
-
+{"key":"Miss","name":"🔞Miss","type":3,"api":"https://y.337898581.xyz/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/Miss.py","searchable":1,"quickSearch":1},
 
 {"key":"直播","name":"🔞直播","type":3,"api":"https://y.337898581.xyz/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/py/py_色播聚合.py","searchable":1,"quickSearch":1,"filterable":0,"changeable":0},
 {"key":"点播","name":"🔞点播","type":3,"searchable":0,"api":"https://cnb.cool/fish2018/pg/-/git/raw/master/lib/live2vod.js","ext":"https://y.337898581.xyz/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/json/feimaolive.json"},
@@ -76,7 +78,7 @@
 {"key":"花都","name":"🔞花都","type":1,"api":"https://hdys2.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"cjy91","name":"🔞七天","type":1,"api":"https://8day.icu/api.php/provide/vod/","searchable":1,"recordable":0},
 {"key":"cjy97","name":"🔞湿乐园","type":1,"api":"https://xxavs.com/api.php/provide/vod/","searchable":1,"recordable":0},
-{"key":"采集A","name":"🔞精品 ","type":1,"api":"http://www.jingpinx.com/api.php/provide/vod/","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
+{"key":"采集A","name":"🔞精品","type":1,"api":"http://www.jingpinx.com/api.php/provide/vod/","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
 
 	
 {"key":"探探","name":"🔞探探","type":1,"api":"https://apittzy.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"filterable":1,"changeable":0},
