@@ -3,33 +3,33 @@
 "logo":"./lib/1.gif",
 "lives":[
 {"name":"本地","type":0,"url":"./js/18/18TV.txt"},
-{"name":"无敌","type":0,"url":"https://y.337898581.xyz/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/无敌.m3u","ua":"okhttp/3.15","epg":"http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"},
-{"name":"经典","type":0,"url":"https://y.337898581.xyz/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/经典.m3u","ua":"okhttp/3.15","epg":"http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"},
-{"name":"珍藏","type":0,"url":"https://y.337898581.xyz/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/珍藏.m3u","ua":"okhttp/3.15","epg":"http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"},
-{"name":"绝品","type":0,"url":"https://y.337898581.xyz/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/绝品.txt","ua":"okhttp/3.15","epg":"http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"}
+{"name":"无敌","type":0,"url":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/无敌.m3u","ua":"okhttp/3.15","epg":"http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"},
+{"name":"经典","type":0,"url":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/经典.m3u","ua":"okhttp/3.15","epg":"http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"},
+{"name":"珍藏","type":0,"url":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/珍藏.m3u","ua":"okhttp/3.15","epg":"http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"},
+{"name":"绝品","type":0,"url":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/绝品.txt","ua":"okhttp/3.15","epg":"http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"}
 ],
 
 "sites":[
-{"key":"合集","name":"点击ㅤ⤵⤵⤵⤵⤵⤵⤵⤵ㅤ主页”更精彩!ㅤ👍👍👍","type":4,"api":"./js/18/合集.json","searchable":0,"quickSearch":0,"filterable":0,"indexs":1},
+{"key":"合集","name":"点击ㅤ【这里】ㅤ切换更多资源!","type":4,"api":"./js/18/合集.json","searchable":0,"quickSearch":0,"filterable":0,"indexs":1},
 {"key":"配置","name":"配置","type":3,"api":"csp_Config","searchable":0,"changeable":0,"ext":"./lib/tokenm.json","timeout":60},
 {"key":"最色","name":"❤️最大","type":3,"api":"csp_Zuise","searchable":1,"quickSearch":1,"changeable":1,"filterable":1,"ext":"null$$$1","timeout":60},
 {"key":"麻豆","name":"🔞麻豆","type":4,"api":"https://json.doube.eu.org/app/index.php?site=dbmadou","searchable":1,"quickSearch":1,"filterable":0,"changeable":0,"style":{"type":"rect","ratio":1.5}},
 {"key":"php_","name":"🔞麻豆(T4)","type":4,"api":"https://json.doube.eu.org/madou.php","searchable":1,"quickSearch":0,"filterable":0,"changeable":0,"style":{"type":"rect","ratio":1.5}},
 {"key":"py_新闻","name":"🔞新闻(T4)","type":4,"api":"https://py.doube.eu.org/spider?site=BadNews","searchable":1,"quickSearch":0,"filterable":0,"changeable":0,"style":{"type":"rect","ratio":1.5}},
 
-{"key":"牛皮","name":"🔞牛皮","type":3,"api":"https://y.337898581.xyz/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/lavAPP.py","searchable":1,"quickSearch":1},
-{"key":"红薯","name":"🔞红薯","type":3,"api":"https://y.337898581.xyz/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/小红薯APP.py","searchable":1,"quickSearch":1},
-{"key":"DSYS","name":"🔞DSYS","type":3,"api":"https://y.337898581.xyz/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/DSYS.py","searchable":1,"quickSearch":1},
-{"key":"Miss","name":"🔞Miss","type":3,"api":"https://y.337898581.xyz/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/Miss.py","searchable":1,"quickSearch":1},
+{"key":"牛皮","name":"🔞牛皮","type":3,"api":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/lavAPP.py","searchable":1,"quickSearch":1},
+{"key":"红薯","name":"🔞红薯","type":3,"api":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/小红薯APP.py","searchable":1,"quickSearch":1},
+{"key":"DSYS","name":"🔞DSYS","type":3,"api":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/DSYS.py","searchable":1,"quickSearch":1},
+{"key":"Miss","name":"🔞Miss","type":3,"api":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/Miss.py","searchable":1,"quickSearch":1,"ext":"proxy"},
 
-{"key":"直播","name":"🔞直播","type":3,"api":"https://y.337898581.xyz/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/py/py_色播聚合.py","searchable":1,"quickSearch":1,"filterable":0,"changeable":0},
-{"key":"点播","name":"🔞点播","type":3,"searchable":0,"api":"https://cnb.cool/fish2018/pg/-/git/raw/master/lib/live2vod.js","ext":"https://y.337898581.xyz/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/json/feimaolive.json"},
+{"key":"直播","name":"🔞直播","type":3,"api":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/py/py_色播聚合.py","searchable":1,"quickSearch":1,"filterable":0,"changeable":0},
+{"key":"点播","name":"🔞点播","type":3,"searchable":0,"api":"https://cnb.cool/fish2018/pg/-/git/raw/master/lib/live2vod.js","ext":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/json/feimaolive.json"},
 
-{"key":"香蕉","name":"🔞香蕉","type":3,"api":"https://y.337898581.xyz/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/香蕉APP.py","searchable":1,"quickSearch":1},
-{"key":"推特","name":"🔞推特","type":3,"api":"https://y.337898581.xyz/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/推特APP.py","searchable":1,"quickSearch":1},
-{"key":"花都","name":"🔞花都","type":3,"api":"https://y.337898581.xyz/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/花都.py","searchable":1,"quickSearch":1},
+{"key":"香蕉","name":"🔞香蕉","type":3,"api":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/香蕉APP.py","searchable":1,"quickSearch":1},
+{"key":"推特","name":"🔞推特","type":3,"api":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/推特APP.py","searchable":1,"quickSearch":1},
+{"key":"花都","name":"🔞花都","type":3,"api":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/花都.py","searchable":1,"quickSearch":1},
 {"key":"福利","name":"🔞福利","type":0,"api":"https://155api.com/api.php/provide/vod/at/xml","searchable":1,"quickSearch":1},
-{"key":"熊猫","name":"🔞熊猫","type":3,"api":"csp_XMVideo","searchable":1,"filterable":1,"jar":"https://y.337898581.xyz/https://raw.githubusercontent.com/guot55/yg/main/jar/182.jar"},
+{"key":"熊猫","name":"🔞熊猫","type":3,"api":"csp_XMVideo","searchable":1,"filterable":1,"jar":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/guot55/yg/main/jar/182.jar"},
 
 {"key":"既看","name":"🔞既看","type":3,"jar":"https://jihulab.com/yc8144509/1/-/raw/main/xyqxbpq.jar","api":"csp_XBPQ","ext":{"主页url":"https://www.jkv.app/show/60-----------.html","数组":"lazyload\"&&</a>","标题":"title=\"&&\"","图片":"data-background-image=\"&&\"","副标题":"xszxj*\">&&</","链接":"href=\"&&\"","搜索模式":"1","搜索url":"https://www.jkv.app/search/{wd}----------{pg}---.html","分类url":"https://www.jkv.app/show/60-{cateId}-------{catePg}---.html","分类":"大陆&香港&台湾&韩国&日本&美国&印度&英国&法国&泰国&新加坡&加拿大&西班牙&俄罗斯","分类值":"*"}},
 {"key":"皮皮","name":"🔞皮皮","type":3,"jar":"https://jihulab.com/yc8144509/1/-/raw/main/xyqxbpq.jar","api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":{"请求头":"User-Agent$MOBILE_UA","编码":"UTF-8","主页url":"https://www.xzweiheng.com/vodshow/33-----------.html","跳转播放链接":"varplayer_*\"url\":\"&&\"","分类url":"https://www.xzweiheng.com/vodshow/33-{cateId}-------{catePg}---.html","分类":"大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他","分类值":"*"}},
@@ -114,11 +114,11 @@
 
 
 
-{"key":"吸瓜","name":"吸瓜","type":3,"api":"https://y.337898581.xyz/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/51吸瓜.py","searchable":1,"quickSearch":1},
-{"key":"Phb","name":"Phb","type":3,"api":"https://y.337898581.xyz/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/Phb.py","searchable":1,"quickSearch":1},
-{"key":"Xhm","name":"Xhm","type":3,"api":"https://y.337898581.xyz/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/Xhm.py","searchable":1,"quickSearch":1},
-{"key":"Xvd","name":"Xvd","type":3,"api":"https://y.337898581.xyz/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/Xvd.py","searchable":1,"quickSearch":1},
-{"key":"浴火","name":"浴火","type":3,"api":"https://y.337898581.xyz/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/浴火社APP.py","searchable":1,"quickSearch":1},
+{"key":"吸瓜","name":"吸瓜","type":3,"api":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/51吸瓜.py","searchable":1,"quickSearch":1},
+{"key":"Phb","name":"Phb","type":3,"api":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/Phb.py","searchable":1,"quickSearch":1},
+{"key":"Xhm","name":"Xhm","type":3,"api":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/Xhm.py","searchable":1,"quickSearch":1},
+{"key":"Xvd","name":"Xvd","type":3,"api":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/Xvd.py","searchable":1,"quickSearch":1},
+{"key":"浴火","name":"浴火","type":3,"api":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/浴火社APP.py","searchable":1,"quickSearch":1},
 
 
 
