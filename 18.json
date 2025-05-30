@@ -17,17 +17,17 @@
 {"key":"php_","name":"🔞麻豆(T4)","type":4,"api":"https://json.doube.eu.org/madou.php","searchable":1,"quickSearch":0,"filterable":0,"changeable":0,"style":{"type":"rect","ratio":1.5}},
 {"key":"py_新闻","name":"🔞新闻(T4)","type":4,"api":"https://py.doube.eu.org/spider?site=BadNews","searchable":1,"quickSearch":0,"filterable":0,"changeable":0,"style":{"type":"rect","ratio":1.5}},
 
-{"key":"牛皮","name":"🔞牛皮","type":3,"api":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/lavAPP.py","searchable":1,"quickSearch":1},
-{"key":"红薯","name":"🔞红薯","type":3,"api":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/小红薯APP.py","searchable":1,"quickSearch":1},
-{"key":"DSYS","name":"🔞DSYS","type":3,"api":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/DSYS.py","searchable":1,"quickSearch":1},
-{"key":"Miss","name":"🔞Miss","type":3,"api":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/Miss.py","searchable":1,"quickSearch":1,"ext":"proxy"},
+{"key":"牛皮","name":"🔞牛皮","type":3,"api":"./js/18/lavAPP.py","searchable":1,"quickSearch":1},
+{"key":"红薯","name":"🔞红薯","type":3,"api":"./js/18/小红薯APP.py","searchable":1,"quickSearch":1},
+{"key":"DSYS","name":"🔞DSYS","type":3,"api":"./js/18/DSYS.py","searchable":1,"quickSearch":1},
+{"key":"Miss","name":"🔞Miss","type":3,"api":"./js/18/Miss.py","searchable":1,"quickSearch":1,"ext":"proxy"},
 
 {"key":"直播","name":"🔞直播","type":3,"api":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/py/py_色播聚合.py","searchable":1,"quickSearch":1,"filterable":0,"changeable":0},
 {"key":"点播","name":"🔞点播","type":3,"searchable":0,"api":"https://cnb.cool/fish2018/pg/-/git/raw/master/lib/live2vod.js","ext":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/json/feimaolive.json"},
 
-{"key":"香蕉","name":"🔞香蕉","type":3,"api":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/香蕉APP.py","searchable":1,"quickSearch":1},
-{"key":"推特","name":"🔞推特","type":3,"api":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/推特APP.py","searchable":1,"quickSearch":1},
-{"key":"花都","name":"🔞花都","type":3,"api":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/花都.py","searchable":1,"quickSearch":1},
+{"key":"香蕉","name":"🔞香蕉","type":3,"api":"./js/18/香蕉APP.py","searchable":1,"quickSearch":1},
+{"key":"推特","name":"🔞推特","type":3,"api":"./js/18/推特APP.py","searchable":1,"quickSearch":1},
+{"key":"花都","name":"🔞花都","type":3,"api":"./js/18/花都.py","searchable":1,"quickSearch":1},
 {"key":"福利","name":"🔞福利","type":0,"api":"https://155api.com/api.php/provide/vod/at/xml","searchable":1,"quickSearch":1},
 {"key":"熊猫","name":"🔞熊猫","type":3,"api":"csp_XMVideo","searchable":1,"filterable":1,"jar":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/guot55/yg/main/jar/182.jar"},
 
@@ -114,11 +114,11 @@
 
 
 
-{"key":"吸瓜","name":"吸瓜","type":3,"api":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/51吸瓜.py","searchable":1,"quickSearch":1},
-{"key":"Phb","name":"Phb","type":3,"api":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/Phb.py","searchable":1,"quickSearch":1},
-{"key":"Xhm","name":"Xhm","type":3,"api":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/Xhm.py","searchable":1,"quickSearch":1},
-{"key":"Xvd","name":"Xvd","type":3,"api":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/Xvd.py","searchable":1,"quickSearch":1},
-{"key":"浴火","name":"浴火","type":3,"api":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/adult/浴火社APP.py","searchable":1,"quickSearch":1},
+{"key":"吸瓜","name":"吸瓜","type":3,"api":"./js/18/51吸瓜.py","searchable":1,"quickSearch":1},
+{"key":"Phb","name":"Phb","type":3,"api":"./js/18/Phb.py","searchable":1,"quickSearch":1},
+{"key":"Xhm","name":"Xhm","type":3,"api":"./js/18/Xhm.py","searchable":1,"quickSearch":1},
+{"key":"Xvd","name":"Xvd","type":3,"api":"./js/18/Xvd.py","searchable":1,"quickSearch":1},
+{"key":"浴火","name":"浴火","type":3,"api":"./js/18/浴火社APP.py","searchable":1,"quickSearch":1},
 
 
 

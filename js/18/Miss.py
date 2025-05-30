@@ -23,10 +23,10 @@ class Spider(Spider):
             "": "",
             "ext": {
                 "site": "https://missav.ai",
-                "cfproxy": ""
+                "cfproxy": "https://18.337898581.xyz/?url="
             }
         }
-        自备:过cf代理如https://18.337898581.xyz/proxy?url=
+        自备:过cf代理如https://xx.vvvv.cc/proxy?url=
         '''
         try:
             ext=json.loads(extend)
