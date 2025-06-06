@@ -1,63 +1,93 @@
-<!DOCTYPE HTML>
-<!--
-	Identity by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Catvod | 主页</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<meta http-equiv="Cache-Control" content="no-transform">
-		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover">
-		<meta name="renderer" content="webkit">
-		<meta http-equiv="Cache-Control" content="no-transform">
-		<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-		<meta name="theme-color" content="#0F7D00">
-		<meta name="msapplication-TileColor" content="#0F7D00">
-		<link rel="stylesheet" href="css/main.css" />
-		<noscript><link rel="stylesheet" href="css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+# -*- coding: utf-8 -*-
+# by @嗷呜
+import sys
+sys.path.append('..')
+from base.spider import Spider
 
-		<!-- Wrapper -->
-			<div id="wrapper">
 
-				<!-- Main -->
-					<section id="main">
-						<header>
-							<span class="avatar"><img src="image/avatar.jpg" alt="" /></span>
-							<h1>Catvod.com</h1>
-							<p>简简单单！</p>
-						</header>
-						<footer>
-							<ul class="icons">
-								<li><a href="https://tvbox.catvod.com/" target="_blank" class="icon solid fa-blog" title="Tvbox接口"><span class="label">Tvbox接口</span></a></li>
-								<li><a href="https://github.catvod.com/" target="_blank" rel="noopener" class="icon regular fa-layer-group" title="GitHub 文件加速"><span class="label">GitHub 文件加速</span></a></li>
-								<li><a href="https://imgs.catvod.com/" target="_blank" rel="noopener" class="icon brands fa-instagram" title="随机精美壁纸"><span class="label">随机精美壁纸</span></a></li>
-								<li><a href="https://img.catvod.com/" target="_blank" rel="noopener" class="icon brands fa-instagram" title="4K随机背景图片"><span class="label">4K随机背景图片</span></a></li>
-								<li><a href="https://www.catvod.com/jiaoliu" target="_blank" rel="nofollow noopener" class="icon fas fa-envelope" title="联系我们"><span class="label">联系我们</span></a></li>
-							</ul>
-						</footer>
-					</section>
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="copyright">
-							<li>&copy; 2025 <a href="https://www.Catvod.com/" target="_blank">Catvod.com</a></li>
-						</ul>
-					</footer>
+class Spider(Spider):
+    def getName(self):
+        return "mp"
 
-			</div>
+    def init(self, extend=""):
+        pass
 
-			<script>
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-				}
-			</script>
-			<script>
-			console.log("%c%cCatvod.com%chttps://www.Catvod.com", "line-height:28px;", "line-height:28px;padding:4px;background:#2ccbe6;color:#FADFA3;font-size:14px;", "padding:4px 4px 4px 2px;background:#ff146d;color:green;line-height:28px;font-size:12px;");
-            </script>
-	</body>
-</html>
+    def isVideoFormat(self, url):
+        pass
+
+    def manualVideoCheck(self):
+        pass
+
+    def destroy(self):
+        pass
+
+    host = 'https://g.c494.com'
+
+    header = {
+        'User-Agent': 'Dart/2.10 (dart:io)',
+        'platform_version': 'RP1A.200720.011',
+        'version': '2.2.3',
+        'copyright': 'xiaogui',
+        'platform': 'android',
+        'client_name': '576O5p+P5b2x6KeG',
+    }
+
+    def homeContent(self, filter):
+        data = self.fetch(f'{self.host}/api.php/app/nav?token=', headers=self.header).json()
+        dy = {"class": "类型", "area": "地区", "lang": "语言", "year": "年份", "letter": "字母", "by": "排序",
+              "sort": "排序"}
+        filters = {}
+        classes = []
+        json_data = data["list"]
+        for item in json_data:
+            has_non_empty_field = False
+            jsontype_extend = item["type_extend"]
+            classes.append({"type_name": item["type_name"], "type_id": str(item["type_id"])})
+            for key in dy:
+                if key in jsontype_extend and jsontype_extend[key].strip() != "":
+                    has_non_empty_field = True
+                    break
+            if has_non_empty_field:
+                filters[str(item["type_id"])] = []
+                for dkey in jsontype_extend:
+                    if dkey in dy and jsontype_extend[dkey].strip() != "":
+                        values = jsontype_extend[dkey].split(",")
+                        value_array = [{"n": value.strip(), "v": value.strip()} for value in values if
+                                       value.strip() != ""]
+                        filters[str(item["type_id"])].append({"key": dkey, "name": dy[dkey], "value": value_array})
+        result = {}
+        result["class"] = classes
+        result["filters"] = filters
+        return result
+
+    def homeVideoContent(self):
+        rsp = self.fetch(f"{self.host}/api.php/app/index_video?token=", headers=self.header)
+        root = rsp.json()['list']
+        videos = [item for vodd in root for item in vodd['vlist']]
+        return {'list': videos}
+
+    def categoryContent(self, tid, pg, filter, extend):
+        parms = {"pg": pg, "tid": tid, "class": extend.get("class", ""), "area": extend.get("area", ""),
+                 "lang": extend.get("lang", ""), "year": extend.get("year", ""), "token": ""}
+        data = self.fetch(f'{self.host}/api.php/app/video', params=parms, headers=self.header).json()
+        return data
+
+    def detailContent(self, ids):
+        parms = {"id": ids[0], "token": ""}
+        data = self.fetch(f'{self.host}/api.php/app/video_detail', params=parms, headers=self.header).json()
+        vod = data['data']
+        vod.pop('pause_advert_list', None)
+        vod.pop('init_advert_list', None)
+        vod.pop('vod_url_with_player', None)
+        return {"list": [vod]}
+
+    def searchContent(self, key, quick, pg='1'):
+        parms = {'pg': pg, 'text': key, 'token': ''}
+        data = self.fetch(f'{self.host}/api.php/app/search', params=parms, headers=self.header).json()
+        return data
+
+    def playerContent(self, flag, id, vipFlags):
+        return {"parse": 0, "url": id, "header": {'User-Agent': 'User-Agent: Lavf/58.12.100'}}
+
+    def localProxy(self, param):
+        pass
