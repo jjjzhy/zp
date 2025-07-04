@@ -9,6 +9,7 @@
   <meta name="robots" content="index,follow" />
   <meta name="theme-color" content="#0F7D00" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <link rel="stylesheet" href="/css/all.min.css" />
   <link rel="manifest" href="/manifest.json" />
   <link rel="icon" href="/icons/icon-192.png" />
   <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css" rel="stylesheet" />
@@ -30,6 +31,7 @@
           <li><a href="https://github.catvod.com/" title="GitHub 文件加速" aria-label="GitHub 文件加速" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
           <li><a href="https://imgs.catvod.com/" title="随机精美壁纸" aria-label="随机精美壁纸" target="_blank" rel="noopener noreferrer"><i class="fas fa-image"></i></a></li>
           <li><a href="https://img.catvod.com/" title="4K随机背景图片" aria-label="4K随机背景图片" target="_blank" rel="noopener noreferrer"><i class="fas fa-photo-video"></i></a></li>
+          <li><a href="https://lives.catvod.com/" title="TXT/M3U 转换工具" aria-label="TXT/M3U 转换工具" target="_blank" rel="noopener noreferrer"><i class="fas fa-cogs"></i></a></li>
           <li><a href="https://www.catvod.com/jiaoliu" title="联系我们" aria-label="联系我们" target="_blank" rel="noopener noreferrer"><i class="fas fa-comments"></i></a></li>
         </ul>
       </footer>

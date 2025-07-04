@@ -88,8 +88,8 @@
 {"key":"精品","name":"🔞精品","type":1,"api":"https://www.jingpinx.com//api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"filterable":1},
 
 
-{"key":"TGYunPan","name":"✈️TG群组","type":3,"api":"csp_TGYunPan","timeout":120,"ext":{"token":"./lib/tokenm.json","json":"./lib/tgsearch.json","keywords":"名称,片名,推荐","tgsearch_url":"https://tg.xueximeng.com/","tgsearch_media_url":"https://tg.xueximeng.com/","channellist":"tgsearchers,yunpanall","proxy":"noproxy","danmu":true},"style":{"type":"rect","ratio":1.77}},
-{"key":"TGYunPanLocal","name":"✈️TG频道","type":3,"api":"csp_TGYunPanLocal","timeout":120,"ext":{"token":"./lib/tokenm.json","json":"./lib/tgsearch.json","keywords":"名称,片名,推荐","tgsearch_url":"https://tg.xueximeng.com/","tgsearch_media_url":"https://tg.xueximeng.com/","channellist":"tgsearchers,yunpanall","proxy":"noproxy","danmu":true},"style":{"type":"rect","ratio":1.77}},
+{"key":"TGYunPan","name":"✈️TG群组","type":3,"api":"csp_TGYunPan","timeout":120,"ext":{"token":"./lib/tokenm.json","json":"./lib/tgsearch.json","keywords":"名称,片名,推荐","tgsearch_url":"http://tg3.fish2018.ip-ddns.com/","tgsearch_media_url":"http://tg3.fish2018.ip-ddns.com/","channellist":"tgsearchers,yunpanall","proxy":"noproxy","danmu":true},"style":{"type":"rect","ratio":1.77}},
+{"key":"TGYunPanLocal","name":"✈️TG频道","type":3,"api":"csp_TGYunPanLocal","timeout":120,"ext":{"token":"./lib/tokenm.json","json":"./lib/tgsearch.json","keywords":"名称,片名,推荐","tgsearch_url":"http://tg3.fish2018.ip-ddns.com/","tgsearch_media_url":"http://tg3.fish2018.ip-ddns.com/","channellist":"tgsearchers,yunpanall","proxy":"noproxy","danmu":true},"style":{"type":"rect","ratio":1.77}},
 
 	
 {"key":"Doll","name":"💔玩偶哥哥(海外)","type":3,"api":"csp_Doll","searchable":1,"quickSearch":1,"ext":"proxy","style":{"type":"rect","ratio":1.309},"timeout":60},
