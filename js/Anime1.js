@@ -1,51 +1,169 @@
-<!DOCTYPE html>
-<html lang="zh">
-<head>
-  <meta charset="utf-8" />
-  <title>Catvod | 主页</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <meta name="description" content="Catvod 提供简洁高效的 Tvbox 接口、GitHub 文件加速服务与美图壁纸服务。" />
-  <meta name="keywords" content="Catvod, TVbox, GitHub 加速, 高清壁纸, 壁纸 API, 文件加速" />
-  <meta name="robots" content="index,follow" />
-  <meta name="theme-color" content="#0F7D00" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <link rel="stylesheet" href="/css/all.min.css" />
-  <link rel="manifest" href="/manifest.json" />
-  <link rel="icon" href="/icons/icon-192.png" />
-  <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="/css/main.css" />
-</head>
-<body>
-  <div id="wrapper">
-    <main id="main" role="main">
-      <header>
-        <div class="avatar">
-          <img src="/image/avatar.jpg" alt="Catvod 头像" loading="lazy" />
-        </div>
-        <h1>Catvod.com</h1>
-        <p>简简单单！</p>
-      </header>
-      <footer>
-        <ul class="icons" role="list">
-          <li><a href="https://tvbox.catvod.com/" title="Tvbox接口" aria-label="Tvbox接口" target="_blank" rel="noopener noreferrer"><i class="fas fa-tv"></i></a></li>
-          <li><a href="https://github.catvod.com/" title="GitHub 文件加速" aria-label="GitHub 文件加速" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
-          <li><a href="https://imgs.catvod.com/" title="随机精美壁纸" aria-label="随机精美壁纸" target="_blank" rel="noopener noreferrer"><i class="fas fa-image"></i></a></li>
-          <li><a href="https://img.catvod.com/" title="4K随机背景图片" aria-label="4K随机背景图片" target="_blank" rel="noopener noreferrer"><i class="fas fa-photo-video"></i></a></li>
-          <li><a href="https://lives.catvod.com/" title="TXT/M3U 转换工具" aria-label="TXT/M3U 转换工具" target="_blank" rel="noopener noreferrer"><i class="fas fa-cogs"></i></a></li>
-          <li><a href="https://www.catvod.com/jiaoliu" title="联系我们" aria-label="联系我们" target="_blank" rel="noopener noreferrer"><i class="fas fa-comments"></i></a></li>
-        </ul>
-      </footer>
-    </main>
-  </div>
-  <footer id="footer" role="contentinfo">
-    <p id="copyright"></p>
-  </footer>
-  <script src="/js/main.js"></script>
-  <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/service-worker.js')
-        .catch(err => console.warn('Service Worker 注册失败:', err));
-    }
-  </script>
-</body>
-</html>
+// 注意事项:此源仅支持 影视TV 及 爱佬版tvbox最新版
+// 注意事项:此源仅支持 影视TV 及 爱佬版tvbox最新版
+// 注意事项:此源仅支持 影视TV 及 爱佬版tvbox最新版
+// 3个set-Cookie
+
+var rule = {
+	title:'Anime1动畫',
+	host:'https://anime1.me',
+	url: '/fyclass',
+	detailUrl:'/?cat=fyid',
+	searchUrl: '/page/fypage?s=**',
+	searchable:2,
+	quickSearch:0,
+	headers:{'User-Agent': 'PC_UA'},
+	timeout:5000,
+    class_name:'連載中&2025&2024&2023&2022&2021&2020&2019&2018&更早',
+    class_url:'連載中&2025&2024&2023&2022&2021&2020&2019&2018&2017',
+	play_parse:true,
+	lazy:`js:
+		var apiurl = 'https://v.anime1.me/api';
+		var html = request(apiurl, {
+			headers: {
+				'Referer': HOST,
+			},
+			body: 'd=' + input,
+			method: 'POST',
+			withHeaders: true
+		});
+		let json = JSON.parse(html);
+		print(json);
+		log(Object.keys(json));
+		let setCk = Object.keys(json).filter(it => it.toLowerCase() === "set-cookie");
+		let cookie = setCk ? json[setCk] : "";
+		// 3个set-Cookie
+		if (Array.isArray(cookie)) {
+			cookie = cookie.join(';');
+		}
+		cookie = cookie.split(';').filter(function(it) {
+			return ['e', 'p', 'h'].includes(it.split('=')[0])
+		}).join(';');
+		log(cookie);
+		var purl = JSON.parse(json.body).s[0].src;
+		if (purl.startsWith('/')) {
+			purl = 'https:' + purl
+		}
+		input = {
+			jx: 0,
+			url: purl,
+			parse: 0,
+			header: JSON.stringify({
+				'referer': HOST,
+				'Cookie': cookie,
+				'user-agent': PC_UA
+			}),
+		}
+	`,
+	limit:6,
+	推荐: `js:
+		var d = [];
+		function stripHtmlTag(src) {
+			return src.replace(/<\\/?[^>]+(>|$)/g, '').replace(/&.{1,5};/g, '').replace(/\\s{2,}/g, ' ');
+		}
+		var timestamp = new Date().getTime();
+		var json = request('https://d1zquzjgwo9yb.cloudfront.net/?_=' + timestamp);
+		var list = JSON.parse(json);
+		let playKeys = Object.values(list).filter(function(x) {
+			return x[2].includes('連載中');
+		});
+		playKeys.forEach(function(it) {
+			d.push({
+				title: stripHtmlTag(it[1]),
+				img: 'https://sta.anicdn.com/playerImg/8.jpg',
+				desc: it[2],
+				url: it[0],
+			});
+		});
+		setResult(d);
+	`,
+	一级: `js:
+		var d = [];
+		function stripHtmlTag(src) {
+			return src.replace(/<\\/?[^>]+(>|$)/g, '').replace(/&.{1,5};/g, '').replace(/\\s{2,}/g, ' ');
+		}
+		var timestamp = new Date().getTime();
+		var json = request('https://d1zquzjgwo9yb.cloudfront.net/?_=' + timestamp);
+		var list = JSON.parse(json);
+		let playKeys = Object.values(list).filter(function(x) {
+			if (MY_CATE === '連載中') return x[2].includes(MY_CATE);
+			else if (MY_CATE === '2017') return x[3] <= MY_CATE;
+			else return x[3] == MY_CATE;
+		});
+		playKeys.forEach(function(it) {
+			d.push({
+				title: stripHtmlTag(it[1]),
+				img: 'https://sta.anicdn.com/playerImg/8.jpg',
+				desc: it[2],
+				url: it[0],
+			});
+		});
+		setResult(d);
+	`,
+	二级: `js:
+		pdfh = jsp.pdfh; pdfa = jsp.pdfa; pd = jsp.pd;
+		var html = request(input);
+		var timestamp = new Date().getTime();
+		var json = request('https://d1zquzjgwo9yb.cloudfront.net/?_=' + timestamp);
+		var list = JSON.parse(json);
+		var vid = input.split('=')[1];
+		let playKeys = Object.values(list).find(function(x) {
+			return x[0] === parseInt(vid);
+		});
+		VOD = {
+			vod_pic: 'https://sta.anicdn.com/playerImg/8.jpg',
+			vod_id: playKeys[0],
+			vod_name: playKeys[1],
+			vod_content: playKeys[2],
+			vod_year: playKeys[3],
+			type_name: playKeys[4],
+			vod_actor: playKeys[5],
+		};
+		var pageurl = pd(html, '.cat-links&&a&&href');
+		var pagenum = 1;
+		let vod_tab_list = [];
+		let vlist = [];
+		for (let p = 1; p < parseInt(pagenum) + 1; p++) {
+			let phtml = request(pageurl + '/page/' + pagenum);
+			let new_vod_list = [];
+			let vodList = [];
+			vodList = pdfa(phtml, '.site-main&&article');
+			for (let i = 0; i < vodList.length; i++) {
+				let it = vodList[i];
+				let ptitle = pdfh(it, '.entry-title&&Text').replace(/\\[(.*)\\]/, '$1');
+				let purl = pd(it, '.video-js&&data-apireq');
+				new_vod_list.push(ptitle + '$' + purl);
+			}
+			vlist = vlist.concat(new_vod_list);
+			try {
+				pagenum = pd(phtml, '.nav-previous&&a&&href').split('/page/')[1];
+			} catch(e) {}
+		}
+		let vlist2 = vlist.reverse().join("#");
+		vod_tab_list.push(vlist2);
+		VOD.vod_play_from = '在线播放';
+		VOD.vod_play_url = vod_tab_list.join("$$$");
+	`,
+	搜索: `js:
+		var d = [];
+		function stripHtmlTag(src) {
+			return src.replace(/<\\/?[^>]+(>|$)/g, '').replace(/&.{1,5};/g, '').replace(/\\s{2,}/g, ' ');
+		}
+		var timestamp = new Date().getTime();
+		var json = request('https://d1zquzjgwo9yb.cloudfront.net/?_=' + timestamp);
+		var list = JSON.parse(json);
+		var wd = input.split('=')[1];
+		let playKeys = Object.values(list).filter(function(x) {
+			return x[1].includes(wd);
+		});
+		log(playKeys);
+		playKeys.forEach(function(it) {
+			d.push({
+				title: stripHtmlTag(it[1]),
+				img: 'https://sta.anicdn.com/playerImg/8.jpg',
+				desc: it[2],
+				url: it[0],
+			});
+		});
+		setResult(d);
+	`,
+}
