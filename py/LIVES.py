@@ -51,17 +51,17 @@ class Spider(Spider):
     excepturl = 'https://www.baidu.com'
 
     hosts = {
+        "douyu": "https://www.douyu.com",
         "huya": ["https://www.huya.com","https://mp.huya.com"],
         "douyin": "https://live.douyin.com",
-        "douyu": "https://www.douyu.com",
         "wangyi": "https://cc.163.com",
         "bili": ["https://api.live.bilibili.com", "https://api.bilibili.com"]
     }
 
     referers = {
+        "douyu": "https://m.douyu.com",
         "huya": "https://live.cdn.huya.com",
         "douyin": "https://live.douyin.com",
-        "douyu": "https://m.douyu.com",
         "bili": "https://live.bilibili.com"
     }
 
