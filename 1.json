@@ -1,5 +1,5 @@
 {
-"spider":"./jar/spider.jar;md5;c12d64445969447fad2af0fd4955f39a",
+"spider":"./jar/spider.jar;md5;d2ea80e962c55269b7f4af26cefc3afc",
 "wallpaper":"https://深色壁纸.xxooo.cf",
 "logo":"./lib/1.gif",
 "lives":[
@@ -12,8 +12,8 @@
 ],
 
 "sites":[
-{"key":"潇洒_豆瓣","name":"豆瓣搜索ㅤ😃更新：2025年7月😃ㅤ🈲切勿信视频内广告🈲","type":3,"api":"csp_Douban","searchable":0},
-{"key":"悟空_搜索","name":"悟空搜索ㅤ😃更新：2025年7月😃ㅤ🈲切勿信视频内广告🈲","type":3,"api":"./js/lf_search3_min.js","searchable":0,"changeable":0,"quickSearch":0},
+{"key":"潇洒_豆瓣","name":"豆瓣搜索ㅤ😃更新：2025年8月😃ㅤ🈲切勿信视频内广告🈲","type":3,"api":"csp_Douban","searchable":0},
+{"key":"悟空_搜索","name":"悟空搜索ㅤ😃更新：2025年8月😃ㅤ🈲切勿信视频内广告🈲","type":3,"api":"./js/lf_search3_min.js","searchable":0,"changeable":0,"quickSearch":0},
 {"key":"潇洒_配置","name":"配置丨中心","type":3,"api":"csp_Config","searchable":0,"changeable":0,"indexs":0,"style":{"type":"rect","ratio":1.597}},
 
 {"key":"潇洒_广场","name":"广场舞丨Bili","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"style":{"type":"rect","ratio":1.597},"ext":{"danmu":true,"cookie":"./lib/bilibili.txt","json":"./bilibili/广场舞.json"}},
@@ -53,6 +53,8 @@
 {"key":"潇洒_行动","name":"行动丨APP","type":3,"api":"csp_AppSy","ext":{"url":"http://160.202.246.9:2356","key1":"aassddwwxxllsx1x","key2":"aassddwwxxllsx1x","key3":"aassddwwxxllsx1x"}},
 {"key":"潇洒_咖啡","name":"咖啡丨APP","type":3,"quickSearch":1,"api":"csp_AppGet","ext":{"url":"","site":"https://omofun.lol/1.txt","dataKey":"skdhalkshqklwkj1","dataIv":"skdhalkshqklwkj1","deviceId":"","version":"109","ua":"okhttp/3.10.0"}},
 {"key":"潇洒_魔方","name":"魔方｜APP","type":3,"quickSearch":1,"api":"csp_AppGet","ext":{"url":"","site":"https://www.snysw.xyz/mfys.txt","dataKey":"1234567887654321","dataIv":"1234567887654321","deviceId":"","version":""}},
+{"key":"潇洒_小野","name":"小野丨APP","type":3,"quickSearch":1,"api":"csp_AppGet","ext":{"url":"https://appcms.xy4k.com","dataKey":"7SDWjknU34zqFbVr","dataIv":"7SDWjknU34zqFbVr","deviceId":"","version":""}},
+{"key":"潇洒_爱看","name":"爱看丨APP","type":3,"quickSearch":1,"api":"csp_AppGet","ext":{"url":"http://154.37.220.65","dataKey":"uI1TkPJC8B46AyN3","dataIv":"uI1TkPJC8B46AyN3","deviceId":"2112fc5eac600314ba95c4d65da9286b3","version":"120"}},
 {"key":"潇洒_稀饭","name":"稀饭丨APP","type":3,"quickSearch":1,"api":"csp_AppGet","ext":{"url":"https://app.xifanys.com","dataKey":"HM6Ly9yeS4ya3dvL","dataIv":"HM6Ly9yeS4ya3dvL","deviceId":"","version":"119"}},
 {"key":"潇洒_蓝光","name":"蓝光丨APP","type":3,"quickSearch":1,"api":"csp_AppGet","ext":{"url":"http://122.228.193.2:9654","dataKey":"ca94b06ca3c7d80e","dataIv":"ca94b06ca3c7d80e","deviceId":"","version":"119"}},
 {"key":"潇洒_麻花","name":"麻花丨APP","type":3,"quickSearch":1,"api":"csp_AppGet","ext":{"url":"","site":"http://124.223.27.166:130","dataKey":"q7gj4f9br3fls6nh","dataIv":"q7gj4f9br3fls6nh","deviceId":"","version":""}},
@@ -69,7 +71,7 @@
 {"key":"潇洒_海豚","name":"海豚丨APP","type":3,"quickSearch":1,"api":"csp_AppGet","ext":{"url":"http://getapp.hiapp.com.cn","dataKey":"2268331221bobobo","dataIv":"2268331221bobobo","deviceId":"","version":"107"}},
 {"key":"潇洒_溜溜","name":"溜溜丨APP","type":3,"quickSearch":1,"api":"csp_AppGet","ext":{"url":"https://appcms.ll4k.xyz","dataKey":"NiDGaKiVnkO3QX1Q","dataIv":"NiDGaKiVnkO3QX1Q","deviceId":"2fbaf48ee97783260bc907e3ab0bd40c3","version":"200"}},
 {"key":"潇洒_晴天","name":"晴天丨APP","type":3,"quickSearch":1,"api":"csp_AppGet","ext":{"url":"https://qjappcms.sun4k.top","dataKey":"sBxqXVF5pAHbGzrH","dataIv":"sBxqXVF5pAHbGzrH","deviceId":"","version":"119"}},
-{"key":"潇洒_橘子","name":"橘子丨APP","type":3,"quickSearch":1,"api":"csp_AppGet","ext":{"url":"https://api1.bffree.cn","dataKey":"2015692015692015","dataIv":"2015692015692015","deviceId":"","version":"300"}},
+{"key":"潇洒_橘子","name":"橘子丨APP","type":3,"quickSearch":1,"api":"csp_AppGet","ext":{"url":"","site": "http://t.bffree.cn/1.txt","dataKey":"2015692015692015","dataIv":"2015692015692015","deviceId":"","version":"300"}},
 {"key":"潇洒_雨滴","name":"雨滴丨APP","type":3,"quickSearch":1,"api":"csp_AppGet","ext":{"url":"https://c8w2ov7u5wg2z1o8p21c.aliyuncs.click:27899","dataKey":"k9o3p2c8b7m3z0o8","dataIv":"k9o3p2c8b7m3z0o8","deviceId":"","version":"100"}},
 {"key":"潇洒_萝卜","name":"萝卜丨APP","type":3,"quickSearch":1,"api":"csp_AppGet","ext":{"url":"https://apiapplbys.lbys.app:5678","dataKey":"apiapplbyskey168","dataIv":"apiapplbyskey168","deviceId":"","version":"107"}},
 {"key":"潇洒_米兔","name":"米兔丨APP","type":3,"quickSearch":1,"api":"csp_AppGet","ext":{"url":"https://new.tkbot.fun","dataKey":"d032c12876bc6848","dataIv":"d032c12876bc6848","deviceId":"","version":"200"}},
