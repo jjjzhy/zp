@@ -1,7 +1,7 @@
 {
   "drives": [
     {
-      "name": "webdav.router",
+      "name": "123网盘",
       "search": true,
       "searchable": true,
       "server": "https://gongyi123.banye.tech:8283",
