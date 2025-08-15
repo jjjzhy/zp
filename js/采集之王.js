@@ -21,7 +21,7 @@ var rule = {
     limit: 20,
     search_limit: 10,
     searchable: 1,
-    quickSearch: 0,
+    quickSearch: 1,
     filterable: 1,
     play_parse: true,
     parse_url: '',
