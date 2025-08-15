@@ -5,13 +5,10 @@
 "lives":[
 {"name":"①CCTV直播","url":"https://fy.188766.xyz/?ip=192.168.1.2&bconly=true","ua":"","epg":"http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"},
 {"name":"②CCTV直播(备用)","url":"https://live.catvod.com/tv.m3u","ua":"","epg":"http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"},
-{"name":"③CCTV直播(备用)","url":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/Mursor/LIVE/refs/heads/main/iptv.m3u","ua":"","epg":"http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"},
-{"name":"④CCTV直播(备用)","url":"https://iptv.catvod.com/tv.m3u","ua":"","epg":"http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"},
-{"name":"⑤斗鱼轮播","url":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/Mursor/LIVE/refs/heads/main/douyuyqk.m3u","ua":"","epg":"http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"},
-{"name":"⑥虎牙轮播","url":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/Mursor/LIVE/refs/heads/main/huyayqk.m3u","ua":"","epg":"http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"},
-{"name":"⑦歪歪轮播","url":"https://github.fxxk.dedyn.io/https://raw.githubusercontent.com/Mursor/LIVE/refs/heads/main/yylunbo.m3u","ua":"","epg":"http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"},
-{"name":"⑧海外直播(备用)","url":"https://fy.188766.xyz/?ip=192.168.1.2&haiwai=true&bconly=true","ua":"","epg":"http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"}
-
+{"name":"③CCTV直播(备用)","url":"https://iptv.catvod.com/tv.m3u","ua":"","epg":"http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"},
+{"name":"④CCTV直播(备用)","url":"http://sub.ottiptv.cc/iptv.m3u","ua":"","epg":"http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"},
+{"name":"⑤港澳台直播","url":"http://bxtv.3a.ink/live.m3u","ua":"","epg":"http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"},
+{"name":"⑥港澳台直播(备用)","url":"https://fy.188766.xyz/?ip=192.168.1.2&haiwai=true&bconly=true","ua":"","epg":"http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"}
 ],
 
 "sites":[
