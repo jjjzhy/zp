@@ -164,7 +164,7 @@
 {"key":"madou","name":"🔞madou","type":4,"api":"https://doubebly.doube.eu.org/madou.php","searchable":1,"quickSearch":1,"filterable":0,"changeable":0,"style":{"type":"rect","ratio":1.5}},
 {"key":"stripchat","name":"🔞stripchat","type":3,"api":"./js/18/py_stripchat.py","searchable":1,"quickSearch":1,"ext":{"site":"https://zh.stripchat.com","cfproxy":"https://18.337898581.xyz/?url=","cfgo":"","plp":"","proxy":{"http":"","https":""}}},
 {"key":"py_rou","name":"🔞py_rou","type":3,"api":"./js/18/vod_rou.py","searchable":1,"quickSearch":1,"ext":{"site":"https://rou.video","cfproxy":"https://18.337898581.xyz/?url=","cfgo":"","plp":"","proxy":{"http":"","https":""}}},
-
+{"key":"好色TV","name":"🔞好色TV","type":3,"api":"./js/18/好色.py","searchable":1,"filterable":0,"changeable":0,"ext":{"proxy":{},"plp":""}},
 
 	
 {"key":"福利","name":"🔞福利","type":0,"api":"https://155api.com/api.php/provide/vod/at/xml","searchable":1,"quickSearch":1},

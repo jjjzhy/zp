@@ -18,10 +18,10 @@ var rule = {
         'User-Agent': 'MOBILE_UA'
     },
     timeout: 5000,
-    limit: 10,
-    search_limit: 5,
+    limit: 20,
+    search_limit: 10,
     searchable: 1,
-    quickSearch: 1,
+    quickSearch: 0,
     filterable: 1,
     play_parse: true,
     parse_url: '',
