@@ -3,7 +3,15 @@
 "wallpaper":"https://深色壁纸.xxooo.cf",
 "logo":"./lib/1.gif",
 "lives":[
-{"name":"①CCTV肥羊","type":0,"url":"https://live.ottiptv.cc/iptv.m3u?userid=7524373166&sign=7d63e83e2ec8cc36626780e73aebfdcb19d88e3d62fedc62b76c86913e8127780af6804ff6247b7dd2167d9be36fd1eec6d84aba821c9fb7ac49905b693f82c435cc5847e27d08&auth_token=cd89c6c6756af1c069849b0e15a3c060","ua":"okHttp/Mod-1.4.0.0","epg":"http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date=DATE1SUB","logo":"http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"},
+        {
+            "name": "极速1.74mb",
+            "type": 3,
+            "api": "csp_Feiyang",
+            "url": "https://daili.korice.eu.org/https://raw.githubusercontent.com/fuleishu/ceshi/refs/heads/main/aptv.m3u",
+            "timeout": 10,
+            "ua": "okhttp/3.15"
+        },
+	{"name":"①CCTV肥羊","type":0,"url":"https://live.ottiptv.cc/iptv.m3u?userid=7524373166&sign=7d63e83e2ec8cc36626780e73aebfdcb19d88e3d62fedc62b76c86913e8127780af6804ff6247b7dd2167d9be36fd1eec6d84aba821c9fb7ac49905b693f82c435cc5847e27d08&auth_token=cd89c6c6756af1c069849b0e15a3c060","ua":"okHttp/Mod-1.4.0.0","epg":"http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date=DATE1SUB","logo":"http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"},
 {"name":"②CCTV直播(备用)","url":"https://live.catvod.com/tv.m3u","ua":"catvod.com","epg":"http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"},
 {"name":"③CCTV直播(备用)","url":"https://fy.188766.xyz/?url=http://mursor.ottiptv.cc","ua":"okHttp/Mod-1.3.0.0","epg":"http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"},
 {"name":"④港澳台直播","url":"http://bxtv.3a.ink/live.m3u","ua":"","epg":"http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"},
