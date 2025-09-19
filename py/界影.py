@@ -17,7 +17,7 @@ class Spider(Spider):
 
     def init(self, extend):
         self.home_url = 'https://www.hkybqufgh.com'
-        self.error_url = 'https://sf1-cdn-tos.huoshanstatic.com/obj/media-fe/xgplayer_doc_video/mp4/xgplayer-demo-720p.mp4'
+        self.error_url = 'https://json.doube.eu.org/error/4gtv/index.m3u8'
         self.headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
         }
@@ -76,7 +76,7 @@ class Spider(Spider):
 
     def playerContent(self, flag, pid, vipFlags):
         url = self.get_play_data(pid)
-        return {"url": url, "header": self.headers, "parse": 0, "jx": 0}
+        return {"url": url, "header": self.headers, "parse": 1, "jx": 0}
 
     def localProxy(self, params):
         pass
@@ -118,26 +118,25 @@ class Spider(Spider):
             if res.status_code != 200:
                 return []
             i = res.json()['data']
-            data = {
-                'type_name': i['vodClass'],  # 剧情 赘婿 爽文短剧 短剧
-                'vod_id': i['vodId'],
-                'vod_name': i['vodName'],
-                'vod_remarks': i['vodRemarks'],  # 更新至30集
-                'vod_year': i['vodYear'],  # 2023
-                'vod_area': i['vodArea'],  # 大陆
-                'vod_actor': i['vodActor'],  # 演员
-                'vod_director': i['vodDirector'],  # 导演
-                'vod_content': i['vodContent'],  # 视频简介
-                'vod_play_from': '蓝光秒播',  # 播放器 ，蓝光秒播$$$云播
-                'vod_play_url': '',  # 播放地址 1$https...#2$https....
-
-            }
             urls = []
             for ii in res.json()['data']['episodeList']:
                 name = ii['name']
                 url = ii['nid']
                 urls.append(f'{name}${ids}-{url}')
-            data['vod_play_url'] = '#'.join(urls)
+            data = {
+                'type_name': i['vodClass'],
+                'vod_id': i['vodId'],
+                'vod_name': i['vodName'],
+                'vod_remarks': i['vodRemarks'],
+                'vod_year': i['vodYear'],
+                'vod_area': i['vodArea'],
+                'vod_actor': i['vodActor'],
+                'vod_director': i['vodDirector'],
+                'vod_content': i['vodContent'],
+                'vod_play_from': '默认',
+                'vod_play_url': '#'.join(urls),
+
+            }
             return [data]
 
         except requests.RequestException as e:
@@ -148,9 +147,9 @@ class Spider(Spider):
         info = play.split('-')
         _id = info[0]
         _pid = info[1]
-        url = self.home_url + f'/api/mw-movie/anonymous/v2/video/episode/url?clientType=1&id={_id}&nid={_pid}'
+        url = self.home_url + f'/api/mw-movie/anonymous/v2/video/episode/url?id={_id}&nid={_pid}'
         t = str(int(time.time() * 1000))
-        headers = self.get_headers(t, f'clientType=1&id={_id}&nid={_pid}&key=cb808529bae6b6be45ecfab29a4889bc&t={t}')
+        headers = self.get_headers(t, f'id={_id}&nid={_pid}&key=cb808529bae6b6be45ecfab29a4889bc&t={t}')
         try:
             res = requests.get(url, headers=headers)
             if res.status_code != 200:
@@ -175,3 +174,7 @@ class Spider(Spider):
 
 if __name__ == '__main__':
     pass
+
+
+
+
